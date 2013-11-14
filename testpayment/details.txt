@@ -1,0 +1,12 @@
+Below information for KasPay integration:
+
+You can try to access http://202.169.62.25 from your dev bungaIndo domain IP (203.212.199.46)
+Merchant ID:
+User : bungaindo@merchant.com
+Pass : 123Qwerty
+
+Buyer ID:
+User : bungaindo@user.com
+Pass : 123Qwerty
+
+For payment please use this url to checkout http://202.169.62.25/pay/<merchantID>/<trxID>

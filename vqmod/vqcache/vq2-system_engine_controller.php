@@ -1,0 +1,216 @@
+<?php
+abstract class Controller {
+	protected $registry;	
+	protected $id;
+	protected $layout;
+	protected $template;
+	protected $children = array();
+	protected $data = array();
+	protected $output;
+	
+	public function __construct($registry) {
+		
+		$this->registry = $registry;
+	}
+	
+	public function __get($key) {
+		return $this->registry->get($key);
+	}
+	
+	public function __set($key, $value) {
+		$this->registry->set($key, $value);
+	}
+			
+	protected function forward($route, $args = array()) {
+		return new Action($route, $args);
+	}
+
+	protected function redirect($url, $status = 302) {echo '<script>window.location = "'.$url.'";</script>';exit;
+		header('Status: ' . $status);
+		header('Location: ' . str_replace(array('&amp;', "\n", "\r"), array('&', '', ''), $url));
+		exit();				
+	}
+	
+	protected function getChild($child, $args = array()) {
+		$action = new Action($child, $args);
+	
+		global $vqmod;
+		if (file_exists($vqmod->modCheck($action->getFile()))) {
+			require_once($vqmod->modCheck($action->getFile()));
+
+			$class = $action->getClass();
+
+			$controller = new $class($this->registry);
+
+			$controller->{$action->getMethod()}($action->getArgs());
+			
+			return $controller->output;
+		} else {
+			trigger_error('Error: Could not load controller ' . $child . '!');
+			exit();					
+		}		
+	}
+	
+	protected function render() {
+		foreach ($this->children as $child) {
+			$this->data[basename($child)] = $this->getChild($child);
+		}
+		
+		
+
+		global $vqmod;
+
+		$file = $vqmod->modCheck(DIR_TEMPLATE . $this->template);
+
+		if (file_exists($file)) {
+
+		
+			extract($this->data);
+			
+      		ob_start();
+      
+	  		require($file);
+      
+	  		$this->output = ob_get_contents();
+
+      		ob_end_clean();
+      		
+			return $this->output;
+    	} else {
+			trigger_error('Error: Could not load template ' . DIR_TEMPLATE . $this->template . '!');
+			exit();				
+    	}
+	}
+	
+	/** BELOW CODE STARTS FOR CONVERTING INVOICE TO PDF -ADDED BY SHEETAL GODASE ON 17TH JUNE 2013 **/
+	
+	protected function renderPDF() {
+		// Author: Nicola Asuni
+		//
+		// (c) Copyright:
+		//               Nicola Asuni
+		//               Tecnick.com s.r.l.
+		//               Via Della Pace, 11
+		//               09044 Quartucciu (CA)
+		//               ITALY
+		//               www.tecnick.com
+		//               info@tecnick.com
+		//============================================================+
+
+		/**
+		 * Creates an example PDF TEST document using TCPDF
+		 * @package com.tecnick.tcpdf
+		 * @abstract TCPDF - Example: XHTML + CSS
+		 * @author Nicola Asuni
+		 * @copyright 2004-2010 Nicola Asuni - Tecnick.com S.r.l (www.tecnick.com) Via Della Pace, 11 - 09044 - Quartucciu (CA) - ITALY - www.tecnick.com - info@tecnick.com
+		 * @link http://tcpdf.org
+		 * @license http://www.gnu.org/copyleft/lesser.html LGPL
+		 * @since 2010-05-25
+		 */
+
+        require_once(DIR_SYSTEM.'external/tcpdf/config/lang/eng.php');
+        require_once(DIR_SYSTEM.'external/tcpdf/tcpdf.php');
+		//echo DIR_SYSTEM; die();
+
+		// create new PDF document
+		$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+
+		// set document information
+		$pdf->SetCreator(PDF_CREATOR);
+		$pdf->SetAuthor('BungaIndo');
+		$pdf->SetTitle('BungaIndo Order Invoice');
+		$pdf->SetSubject('BungaIndo Order Invoice');
+		$pdf->SetKeywords('TCPDF, PDF, example, test, guide');
+
+		// set default header data
+		$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE, PDF_HEADER_STRING, PDF_HEADER_STRING_EMAIL);
+
+		// set header and footer fonts
+		$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+		$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+
+		// set default monospaced font
+		$pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
+
+		//set margins
+		$pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
+		$pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
+		$pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
+
+		//set auto page breaks
+		$pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+
+		//set image scale factor
+		$pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
+
+		//set some language-dependent strings
+		$pdf->setLanguageArray($l);
+
+		// ---------------------------------------------------------
+
+		// set font
+		$pdf->SetFont('dejavusans', '', 10);
+
+		// add a page
+		$pdf->AddPage();
+
+		/* NOTE:
+		 * *********************************************************
+		 * You can load external XHTML using :
+		 *
+		 * $html = file_get_contents('/path/to/your/file.html');
+		 *
+		 * External CSS files will be automatically loaded.
+		 * Sometimes you need to fix the path of the external CSS.
+		 * *********************************************************
+		 */
+
+		// define some HTML content with style
+		$tablecontent = $this->fetch($this->template);
+		
+		// output the HTML content
+		$pdf->writeHTML($tablecontent, true, false, true, false, '');
+
+		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+		// reset pointer to the last page
+		$pdf->lastPage();
+
+		// ---------------------------------------------------------
+
+		//Close and output PDF document
+		$this->output =  $pdf->Output('invoice.pdf', 'I');
+	//	echo $this->output; die("op");
+		//============================================================+
+		// END OF FILE                                                
+		//============================================================+
+	}
+	
+	protected function fetch($filename) {
+		$file = DIR_TEMPLATE . $filename;
+    
+global $vqmod; $file = $vqmod->modCheck($file);
+		if (file_exists($file)) {
+			extract($this->data);
+			
+      		ob_start();
+      
+	  		require($file);
+      
+	  		$content = ob_get_contents();
+
+      		ob_end_clean();
+
+      		return $content;
+    	} else {
+      		exit('Error: Could not load template ' . $file . '!');
+    	}
+	}
+	
+	
+	
+	
+	/** BELOW CODE ENDS FOR CONVERTING INVOICE TO PDF -ADDED BY SHEETAL GODASE ON 17TH JUNE 2013 **/
+	
+}
+?>

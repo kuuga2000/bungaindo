@@ -1,0 +1,11 @@
+1) upload all files in zip->code folder on the root of the server
+2) created new database with name "livezilla" and "bungaindo"
+3) First select livezilla database and import livezilla.sql file to database from given zip->database folder
+4) Then select bungaindo database and import bungaindo.sql file to database from zip->database folder 
+5) You must give write permission to all cache folder, image folder and vqmode/vqcache folder.
+6) Then you need to edit config.php file on root and in admin folder for proper URL's
+7) Make sure you are updating 2 config files.
+8) You need to update all emails and urls from admin->setting tab. Also in root->kaspay folder in index.php you need to update smtpUsername,smtpPassword as per your requirements.
+9) Similary you need to update all variables in livezilla/_config/config.inc.php file with new details like database name, username, password, your host name etc. Please make sure that all the values are base64 encoded. You can use base64 encoder and decoder for checking this values here- http://www.base64decode.org/. 
+
+ 

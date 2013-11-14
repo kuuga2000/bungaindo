@@ -1,0 +1,30 @@
+<?php
+// HTTP
+define('HTTP_SERVER', 'http://dev.eluminousdev.com/bungaIndo/admin/');
+define('HTTP_CATALOG', 'http://dev.eluminousdev.com/bungaIndo/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://dev.eluminousdev.com/bungaIndo/admin/');
+define('HTTPS_CATALOG', 'http://dev.eluminousdev.com/bungaIndo/');
+
+// DIR
+define('DIR_APPLICATION', '/var/www/bungaIndo/admin/');
+define('DIR_SYSTEM', '/var/www/bungaIndo/system/');
+define('DIR_DATABASE', '/var/www/bungaIndo/system/database/');
+define('DIR_LANGUAGE', '/var/www/bungaIndo/admin/language/');
+define('DIR_TEMPLATE', '/var/www/bungaIndo/admin/view/template/');
+define('DIR_CONFIG', '/var/www/bungaIndo/system/config/');
+define('DIR_IMAGE', '/var/www/bungaIndo/image/');
+define('DIR_CACHE', '/var/www/bungaIndo/system/cache/');
+define('DIR_DOWNLOAD', '/var/www/bungaIndo/download/');
+define('DIR_LOGS', '/var/www/bungaIndo/system/logs/');
+define('DIR_CATALOG', '/var/www/bungaIndo/catalog/');
+
+// DB
+define('DB_DRIVER', 'mysql');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'mysql');
+define('DB_DATABASE', 'bungaindo');
+define('DB_PREFIX', 'oc_');
+?>

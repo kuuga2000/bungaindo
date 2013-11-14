@@ -1,0 +1,1219 @@
+<table cellpadding="0" cellspacing="0" align="center" width="900">
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line"><!--lang_stats_visitors--></td>
+					<td class="header_line" align="right">23.06.2013</td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">&nbsp;&nbsp;4 <!--lang_stats_visitors--></td>
+					<td class="header_nav_line" align="right">Status:&nbsp;&nbsp;<!--lang_stats_status_closed-->&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15">#</td>
+					<td class="bt_column_header" width="40" align="center"><!--lang_stats_pages--></td>
+					<td class="bt_column_header" width="60" align="center"><!--lang_stats_entrance--></td>
+					<td class="bt_column_header" width="60" align="center"><!--lang_stats_exit--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_country--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_city--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_browser--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_system--></td>
+					<td class="bt_column_header" width="25">&nbsp;</td>
+				</tr>
+				
+	<tr>
+		<td>1</td>
+		<td align="center"><a href="javascript:switchRowVisibility('pl_1');"><strong>101</strong></a></td>
+		<td align="center">05:43:02</td>
+		<td align="center">09:10:45</td>
+		<td NOWRAP>India</td>
+		<td NOWRAP>Mumbai</td>
+		<td NOWRAP>Chrome 27</td>
+		<td NOWRAP>Windows 7</td>
+		<td class="vs" align="right"><div class="ico_info" onclick="showInfoBox('Tata Teleservices (maharashtra) Ltd','17','1','192.168.1.1','','88cae3dd98',this); return true;"></div></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_11">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">05:43:02</td>
+		<td align="center">05:44:23</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/" target="_blank">http://localhost/bungaIndo/</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_12">
+		<td>&nbsp;</td>
+		<td align="center">2</td>
+		<td align="center">05:44:23</td>
+		<td align="center">05:44:27</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://localhost/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_13">
+		<td>&nbsp;</td>
+		<td align="center">3</td>
+		<td align="center">05:44:27</td>
+		<td align="center">05:46:07</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=account/login_register" target="_blank">http://localhost/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_14">
+		<td>&nbsp;</td>
+		<td align="center">4</td>
+		<td align="center">05:46:07</td>
+		<td align="center">05:46:47</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=account/success" target="_blank">http://localhost/bungaIndo/index.php?route=account/success</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_15">
+		<td>&nbsp;</td>
+		<td align="center">5</td>
+		<td align="center">05:46:47</td>
+		<td align="center">05:46:49</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php" target="_blank">http://localhost/bungaIndo/index.php</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_16">
+		<td>&nbsp;</td>
+		<td align="center">6</td>
+		<td align="center">05:46:49</td>
+		<td align="center">05:46:54</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://localhost/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_17">
+		<td>&nbsp;</td>
+		<td align="center">7</td>
+		<td align="center">05:46:54</td>
+		<td align="center">05:47:02</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/product&amp;path=60&amp;product_id=52" target="_blank">http://localhost/bungaIndo/index.php?route=product/product&amp;path=60&amp;product_id=52</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_18">
+		<td>&nbsp;</td>
+		<td align="center">8</td>
+		<td align="center">05:47:02</td>
+		<td align="center">05:54:36</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_19">
+		<td>&nbsp;</td>
+		<td align="center">9</td>
+		<td align="center">05:54:36</td>
+		<td align="center">05:55:20</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=account/login_register" target="_blank">http://localhost/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_110">
+		<td>&nbsp;</td>
+		<td align="center">10</td>
+		<td align="center">05:55:20</td>
+		<td align="center">06:16:12</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_111">
+		<td>&nbsp;</td>
+		<td align="center">11</td>
+		<td align="center">06:16:12</td>
+		<td align="center">06:16:15</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=account/account" target="_blank">http://localhost/bungaIndo/index.php?route=account/account</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_112">
+		<td>&nbsp;</td>
+		<td align="center">12</td>
+		<td align="center">06:16:15</td>
+		<td align="center">06:16:20</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_113">
+		<td>&nbsp;</td>
+		<td align="center">13</td>
+		<td align="center">06:16:20</td>
+		<td align="center">06:21:03</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_114">
+		<td>&nbsp;</td>
+		<td align="center">14</td>
+		<td align="center">06:21:03</td>
+		<td align="center">06:21:10</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_115">
+		<td>&nbsp;</td>
+		<td align="center">15</td>
+		<td align="center">06:21:10</td>
+		<td align="center">06:21:21</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_116">
+		<td>&nbsp;</td>
+		<td align="center">16</td>
+		<td align="center">06:21:21</td>
+		<td align="center">06:21:27</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_117">
+		<td>&nbsp;</td>
+		<td align="center">17</td>
+		<td align="center">06:21:27</td>
+		<td align="center">06:29:32</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_118">
+		<td>&nbsp;</td>
+		<td align="center">18</td>
+		<td align="center">06:29:32</td>
+		<td align="center">06:29:43</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_119">
+		<td>&nbsp;</td>
+		<td align="center">19</td>
+		<td align="center">06:29:43</td>
+		<td align="center">06:29:46</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_120">
+		<td>&nbsp;</td>
+		<td align="center">20</td>
+		<td align="center">06:29:46</td>
+		<td align="center">06:30:56</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_121">
+		<td>&nbsp;</td>
+		<td align="center">21</td>
+		<td align="center">06:30:56</td>
+		<td align="center">06:31:05</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_122">
+		<td>&nbsp;</td>
+		<td align="center">22</td>
+		<td align="center">06:31:05</td>
+		<td align="center">06:32:39</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_123">
+		<td>&nbsp;</td>
+		<td align="center">23</td>
+		<td align="center">06:32:39</td>
+		<td align="center">06:32:57</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_124">
+		<td>&nbsp;</td>
+		<td align="center">24</td>
+		<td align="center">06:32:57</td>
+		<td align="center">06:35:18</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_125">
+		<td>&nbsp;</td>
+		<td align="center">25</td>
+		<td align="center">06:35:18</td>
+		<td align="center">06:35:21</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_126">
+		<td>&nbsp;</td>
+		<td align="center">26</td>
+		<td align="center">06:35:21</td>
+		<td align="center">06:35:38</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_127">
+		<td>&nbsp;</td>
+		<td align="center">27</td>
+		<td align="center">06:35:38</td>
+		<td align="center">07:08:05</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_128">
+		<td>&nbsp;</td>
+		<td align="center">28</td>
+		<td align="center">07:08:05</td>
+		<td align="center">07:08:09</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_129">
+		<td>&nbsp;</td>
+		<td align="center">29</td>
+		<td align="center">07:08:09</td>
+		<td align="center">07:13:34</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_130">
+		<td>&nbsp;</td>
+		<td align="center">30</td>
+		<td align="center">07:13:34</td>
+		<td align="center">07:13:43</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_131">
+		<td>&nbsp;</td>
+		<td align="center">31</td>
+		<td align="center">07:13:43</td>
+		<td align="center">07:13:45</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_132">
+		<td>&nbsp;</td>
+		<td align="center">32</td>
+		<td align="center">07:13:45</td>
+		<td align="center">07:13:59</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_133">
+		<td>&nbsp;</td>
+		<td align="center">33</td>
+		<td align="center">07:13:59</td>
+		<td align="center">07:15:03</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_134">
+		<td>&nbsp;</td>
+		<td align="center">34</td>
+		<td align="center">07:15:03</td>
+		<td align="center">07:21:07</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/success" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/success</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_135">
+		<td>&nbsp;</td>
+		<td align="center">35</td>
+		<td align="center">07:21:07</td>
+		<td align="center">07:21:12</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/category&amp;path=61" target="_blank">http://localhost/bungaIndo/index.php?route=product/category&amp;path=61</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_136">
+		<td>&nbsp;</td>
+		<td align="center">36</td>
+		<td align="center">07:21:12</td>
+		<td align="center">07:21:21</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://localhost/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_137">
+		<td>&nbsp;</td>
+		<td align="center">37</td>
+		<td align="center">07:21:21</td>
+		<td align="center">07:21:33</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_138">
+		<td>&nbsp;</td>
+		<td align="center">38</td>
+		<td align="center">07:21:33</td>
+		<td align="center">07:24:44</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_139">
+		<td>&nbsp;</td>
+		<td align="center">39</td>
+		<td align="center">07:24:44</td>
+		<td align="center">07:25:38</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_140">
+		<td>&nbsp;</td>
+		<td align="center">40</td>
+		<td align="center">07:25:38</td>
+		<td align="center">07:25:47</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/success" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/success</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_141">
+		<td>&nbsp;</td>
+		<td align="center">41</td>
+		<td align="center">07:25:47</td>
+		<td align="center">08:55:41</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=account/account" target="_blank">http://localhost/bungaIndo/index.php?route=account/account</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_142">
+		<td>&nbsp;</td>
+		<td align="center">42</td>
+		<td align="center">08:55:41</td>
+		<td align="center">08:55:44</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://localhost/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_143">
+		<td>&nbsp;</td>
+		<td align="center">43</td>
+		<td align="center">08:55:44</td>
+		<td align="center">08:59:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_144">
+		<td>&nbsp;</td>
+		<td align="center">44</td>
+		<td align="center">06:02:09</td>
+		<td align="center">08:13:11</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php" target="_blank">http://localhost/bungaIndo/index.php</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_145">
+		<td>&nbsp;</td>
+		<td align="center">45</td>
+		<td align="center">08:13:11</td>
+		<td align="center">08:13:15</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/#" target="_blank">http://localhost/bungaIndo/#</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_146">
+		<td>&nbsp;</td>
+		<td align="center">46</td>
+		<td align="center">08:13:15</td>
+		<td align="center">08:13:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=information/information&amp;information_id=4" target="_blank">http://localhost/bungaIndo/index.php?route=information/information&amp;information_id=4</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_147">
+		<td>&nbsp;</td>
+		<td align="center">47</td>
+		<td align="center">08:13:30</td>
+		<td align="center">09:00:15</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=information/information/policy" target="_blank">http://localhost/bungaIndo/index.php?route=information/information/policy</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_148">
+		<td>&nbsp;</td>
+		<td align="center">48</td>
+		<td align="center">09:00:15</td>
+		<td align="center">09:10:45</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_149">
+		<td>&nbsp;</td>
+		<td align="center">49</td>
+		<td align="center">06:17:46</td>
+		<td align="center">08:31:06</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php" target="_blank">http://localhost/bungaIndo/index.php</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_150">
+		<td>&nbsp;</td>
+		<td align="center">50</td>
+		<td align="center">08:31:06</td>
+		<td align="center">08:31:08</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_151">
+		<td>&nbsp;</td>
+		<td align="center">51</td>
+		<td align="center">08:31:08</td>
+		<td align="center">08:31:11</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/category&amp;path=61" target="_blank">http://localhost/bungaIndo/index.php?route=product/category&amp;path=61</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_152">
+		<td>&nbsp;</td>
+		<td align="center">52</td>
+		<td align="center">08:31:11</td>
+		<td align="center">08:31:15</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_153">
+		<td>&nbsp;</td>
+		<td align="center">53</td>
+		<td align="center">08:31:15</td>
+		<td align="center">08:31:25</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_154">
+		<td>&nbsp;</td>
+		<td align="center">54</td>
+		<td align="center">08:31:25</td>
+		<td align="center">08:33:17</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_155">
+		<td>&nbsp;</td>
+		<td align="center">55</td>
+		<td align="center">08:33:17</td>
+		<td align="center">08:34:07</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=information/information/policy" target="_blank">http://localhost/bungaIndo/index.php?route=information/information/policy</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_156">
+		<td>&nbsp;</td>
+		<td align="center">56</td>
+		<td align="center">08:34:07</td>
+		<td align="center">08:34:15</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_157">
+		<td>&nbsp;</td>
+		<td align="center">57</td>
+		<td align="center">08:34:15</td>
+		<td align="center">08:34:17</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_158">
+		<td>&nbsp;</td>
+		<td align="center">58</td>
+		<td align="center">08:34:17</td>
+		<td align="center">08:34:26</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_159">
+		<td>&nbsp;</td>
+		<td align="center">59</td>
+		<td align="center">08:34:26</td>
+		<td align="center">08:36:21</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_160">
+		<td>&nbsp;</td>
+		<td align="center">60</td>
+		<td align="center">08:36:21</td>
+		<td align="center">08:41:51</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/success" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/success</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_161">
+		<td>&nbsp;</td>
+		<td align="center">61</td>
+		<td align="center">06:57:17</td>
+		<td align="center">06:57:47</td>
+		<td colspan="5"><!--lang_stats_browser--> 4: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=confirm/removeUpsell&amp;product=50&amp;upsell=57" target="_blank">http://localhost/bungaIndo/index.php?route=confirm/removeUpsell&amp;product=50&amp;upsell=57</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_162">
+		<td>&nbsp;</td>
+		<td align="center">62</td>
+		<td align="center">07:03:11</td>
+		<td align="center">07:03:16</td>
+		<td colspan="5"><!--lang_stats_browser--> 5: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_163">
+		<td>&nbsp;</td>
+		<td align="center">63</td>
+		<td align="center">08:03:17</td>
+		<td align="center">08:03:21</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_164">
+		<td>&nbsp;</td>
+		<td align="center">64</td>
+		<td align="center">08:03:21</td>
+		<td align="center">08:05:28</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=4" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=4</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_165">
+		<td>&nbsp;</td>
+		<td align="center">65</td>
+		<td align="center">08:05:28</td>
+		<td align="center">08:05:48</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=6" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=6</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_166">
+		<td>&nbsp;</td>
+		<td align="center">66</td>
+		<td align="center">08:05:48</td>
+		<td align="center">08:12:05</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=5" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=5</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_167">
+		<td>&nbsp;</td>
+		<td align="center">67</td>
+		<td align="center">08:12:05</td>
+		<td align="center">08:12:36</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/policy" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/policy</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_168">
+		<td>&nbsp;</td>
+		<td align="center">68</td>
+		<td align="center">08:12:36</td>
+		<td align="center">08:19:36</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_169">
+		<td>&nbsp;</td>
+		<td align="center">69</td>
+		<td align="center">08:19:36</td>
+		<td align="center">08:19:52</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=4" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=4</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_170">
+		<td>&nbsp;</td>
+		<td align="center">70</td>
+		<td align="center">08:19:52</td>
+		<td align="center">08:20:42</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_171">
+		<td>&nbsp;</td>
+		<td align="center">71</td>
+		<td align="center">08:20:42</td>
+		<td align="center">08:20:53</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_172">
+		<td>&nbsp;</td>
+		<td align="center">72</td>
+		<td align="center">08:20:53</td>
+		<td align="center">08:21:09</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_173">
+		<td>&nbsp;</td>
+		<td align="center">73</td>
+		<td align="center">08:21:09</td>
+		<td align="center">08:22:10</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_174">
+		<td>&nbsp;</td>
+		<td align="center">74</td>
+		<td align="center">08:22:10</td>
+		<td align="center">08:23:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_175">
+		<td>&nbsp;</td>
+		<td align="center">75</td>
+		<td align="center">08:23:30</td>
+		<td align="center">08:23:37</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_176">
+		<td>&nbsp;</td>
+		<td align="center">76</td>
+		<td align="center">08:23:37</td>
+		<td align="center">08:23:38</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_177">
+		<td>&nbsp;</td>
+		<td align="center">77</td>
+		<td align="center">08:23:38</td>
+		<td align="center">08:23:41</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_178">
+		<td>&nbsp;</td>
+		<td align="center">78</td>
+		<td align="center">08:23:41</td>
+		<td align="center">08:23:44</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_179">
+		<td>&nbsp;</td>
+		<td align="center">79</td>
+		<td align="center">08:23:44</td>
+		<td align="center">08:24:39</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_180">
+		<td>&nbsp;</td>
+		<td align="center">80</td>
+		<td align="center">08:24:39</td>
+		<td align="center">08:25:37</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_181">
+		<td>&nbsp;</td>
+		<td align="center">81</td>
+		<td align="center">08:25:37</td>
+		<td align="center">08:25:45</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/success" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/success</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_182">
+		<td>&nbsp;</td>
+		<td align="center">82</td>
+		<td align="center">08:25:45</td>
+		<td align="center">08:25:46</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_183">
+		<td>&nbsp;</td>
+		<td align="center">83</td>
+		<td align="center">08:25:46</td>
+		<td align="center">08:32:15</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/order" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/order</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_184">
+		<td>&nbsp;</td>
+		<td align="center">84</td>
+		<td align="center">08:32:15</td>
+		<td align="center">08:38:37</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_185">
+		<td>&nbsp;</td>
+		<td align="center">85</td>
+		<td align="center">08:21:52</td>
+		<td align="center">08:21:56</td>
+		<td colspan="5"><!--lang_stats_browser--> 7: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/forgotten" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/forgotten</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_186">
+		<td>&nbsp;</td>
+		<td align="center">86</td>
+		<td align="center">09:00:22</td>
+		<td align="center">09:00:27</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_187">
+		<td>&nbsp;</td>
+		<td align="center">87</td>
+		<td align="center">09:00:27</td>
+		<td align="center">09:00:33</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=59" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=59</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_188">
+		<td>&nbsp;</td>
+		<td align="center">88</td>
+		<td align="center">09:00:33</td>
+		<td align="center">09:00:41</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/product&amp;path=59&amp;product_id=50" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/product&amp;path=59&amp;product_id=50</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_189">
+		<td>&nbsp;</td>
+		<td align="center">89</td>
+		<td align="center">09:00:41</td>
+		<td align="center">09:04:43</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_190">
+		<td>&nbsp;</td>
+		<td align="center">90</td>
+		<td align="center">09:04:43</td>
+		<td align="center">09:04:53</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_191">
+		<td>&nbsp;</td>
+		<td align="center">91</td>
+		<td align="center">09:04:53</td>
+		<td align="center">09:06:18</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_192">
+		<td>&nbsp;</td>
+		<td align="center">92</td>
+		<td align="center">09:06:18</td>
+		<td align="center">09:07:00</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_193">
+		<td>&nbsp;</td>
+		<td align="center">93</td>
+		<td align="center">09:07:00</td>
+		<td align="center">09:07:35</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_194">
+		<td>&nbsp;</td>
+		<td align="center">94</td>
+		<td align="center">09:07:35</td>
+		<td align="center">09:07:41</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_195">
+		<td>&nbsp;</td>
+		<td align="center">95</td>
+		<td align="center">09:07:41</td>
+		<td align="center">09:07:45</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_196">
+		<td>&nbsp;</td>
+		<td align="center">96</td>
+		<td align="center">09:07:45</td>
+		<td align="center">09:07:47</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_197">
+		<td>&nbsp;</td>
+		<td align="center">97</td>
+		<td align="center">09:07:47</td>
+		<td align="center">09:08:19</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_198">
+		<td>&nbsp;</td>
+		<td align="center">98</td>
+		<td align="center">09:08:19</td>
+		<td align="center">09:08:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/confirm</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_199">
+		<td>&nbsp;</td>
+		<td align="center">99</td>
+		<td align="center">09:08:30</td>
+		<td align="center">09:10:42</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/success" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/success</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_1100">
+		<td>&nbsp;</td>
+		<td align="center">100</td>
+		<td align="center">09:10:42</td>
+		<td align="center">09:10:43</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_1101">
+		<td>&nbsp;</td>
+		<td align="center">101</td>
+		<td align="center">09:10:43</td>
+		<td align="center">09:10:43</td>
+		<td colspan="5"><!--lang_stats_browser--> 8: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/logout" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/logout</a></td>
+	</tr>
+
+	<tr>
+		<td>2</td>
+		<td align="center"><a href="javascript:switchRowVisibility('pl_2');"><strong>35</strong></a></td>
+		<td align="center">07:25:55</td>
+		<td align="center">08:59:47</td>
+		<td NOWRAP>India</td>
+		<td NOWRAP>Pune</td>
+		<td NOWRAP>FireFox 21</td>
+		<td NOWRAP>Windows 7</td>
+		<td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('Tata Teleservices (maharashtra) Ltd','1','1','192.168.1.1','','9dc93fbef4',this); return true;"></div></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_21">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">07:25:55</td>
+		<td align="center">07:54:04</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/" target="_blank">http://localhost/bungaIndo/</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_22">
+		<td>&nbsp;</td>
+		<td align="center">2</td>
+		<td align="center">07:54:04</td>
+		<td align="center">07:55:49</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=account/login_register" target="_blank">http://localhost/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_23">
+		<td>&nbsp;</td>
+		<td align="center">3</td>
+		<td align="center">07:55:49</td>
+		<td align="center">07:55:53</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=account/account" target="_blank">http://localhost/bungaIndo/index.php?route=account/account</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_24">
+		<td>&nbsp;</td>
+		<td align="center">4</td>
+		<td align="center">07:55:53</td>
+		<td align="center">07:55:57</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://localhost/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_25">
+		<td>&nbsp;</td>
+		<td align="center">5</td>
+		<td align="center">07:55:57</td>
+		<td align="center">07:56:06</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/cart" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_26">
+		<td>&nbsp;</td>
+		<td align="center">6</td>
+		<td align="center">07:56:06</td>
+		<td align="center">08:27:16</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://localhost/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_27">
+		<td>&nbsp;</td>
+		<td align="center">7</td>
+		<td align="center">08:27:16</td>
+		<td align="center">08:59:47</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=information/information&amp;information_id=6" target="_blank">http://localhost/bungaIndo/index.php?route=information/information&amp;information_id=6</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_28">
+		<td>&nbsp;</td>
+		<td align="center">8</td>
+		<td align="center">07:26:09</td>
+		<td align="center">07:27:34</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/" target="_blank">http://dev.eluminousdev.com/bungaIndo/</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_29">
+		<td>&nbsp;</td>
+		<td align="center">9</td>
+		<td align="center">07:27:34</td>
+		<td align="center">07:29:21</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_210">
+		<td>&nbsp;</td>
+		<td align="center">10</td>
+		<td align="center">07:29:21</td>
+		<td align="center">07:29:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/success" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/success</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_211">
+		<td>&nbsp;</td>
+		<td align="center">11</td>
+		<td align="center">07:29:30</td>
+		<td align="center">07:29:39</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_212">
+		<td>&nbsp;</td>
+		<td align="center">12</td>
+		<td align="center">07:29:39</td>
+		<td align="center">07:29:41</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60_65" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60_65</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_213">
+		<td>&nbsp;</td>
+		<td align="center">13</td>
+		<td align="center">07:29:41</td>
+		<td align="center">07:29:45</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=60</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_214">
+		<td>&nbsp;</td>
+		<td align="center">14</td>
+		<td align="center">07:29:45</td>
+		<td align="center">07:30:17</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_215">
+		<td>&nbsp;</td>
+		<td align="center">15</td>
+		<td align="center">07:30:17</td>
+		<td align="center">07:30:22</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_216">
+		<td>&nbsp;</td>
+		<td align="center">16</td>
+		<td align="center">07:30:22</td>
+		<td align="center">07:31:00</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_217">
+		<td>&nbsp;</td>
+		<td align="center">17</td>
+		<td align="center">07:31:00</td>
+		<td align="center">07:31:09</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_218">
+		<td>&nbsp;</td>
+		<td align="center">18</td>
+		<td align="center">07:31:09</td>
+		<td align="center">07:31:45</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_219">
+		<td>&nbsp;</td>
+		<td align="center">19</td>
+		<td align="center">07:31:45</td>
+		<td align="center">08:28:28</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/shipping_address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_220">
+		<td>&nbsp;</td>
+		<td align="center">20</td>
+		<td align="center">08:28:28</td>
+		<td align="center">08:28:31</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/" target="_blank">http://dev.eluminousdev.com/bungaIndo/</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_221">
+		<td>&nbsp;</td>
+		<td align="center">21</td>
+		<td align="center">08:28:31</td>
+		<td align="center">08:28:56</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=6" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=6</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_222">
+		<td>&nbsp;</td>
+		<td align="center">22</td>
+		<td align="center">08:28:56</td>
+		<td align="center">08:30:11</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=4" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=4</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_223">
+		<td>&nbsp;</td>
+		<td align="center">23</td>
+		<td align="center">08:30:11</td>
+		<td align="center">08:30:13</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=3" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=3</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_224">
+		<td>&nbsp;</td>
+		<td align="center">24</td>
+		<td align="center">08:30:13</td>
+		<td align="center">08:30:26</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=5" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information&amp;information_id=5</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_225">
+		<td>&nbsp;</td>
+		<td align="center">25</td>
+		<td align="center">08:30:26</td>
+		<td align="center">08:59:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/information/policy</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_226">
+		<td>&nbsp;</td>
+		<td align="center">26</td>
+		<td align="center">07:30:06</td>
+		<td align="center">07:30:06</td>
+		<td colspan="5"><!--lang_stats_browser--> 3: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_227">
+		<td>&nbsp;</td>
+		<td align="center">27</td>
+		<td align="center">08:27:43</td>
+		<td align="center">08:59:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 4: <a href="http://dereferrer.livezilla.biz/?url=http://localhost/bungaIndo/index.php?route=information/information&amp;information_id=4" target="_blank">http://localhost/bungaIndo/index.php?route=information/information&amp;information_id=4</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_228">
+		<td>&nbsp;</td>
+		<td align="center">28</td>
+		<td align="center">08:41:41</td>
+		<td align="center">08:46:42</td>
+		<td colspan="5"><!--lang_stats_browser--> 5: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=vendor/salesdashboard" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=vendor/salesdashboard</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_229">
+		<td>&nbsp;</td>
+		<td align="center">29</td>
+		<td align="center">08:46:42</td>
+		<td align="center">08:59:43</td>
+		<td colspan="5"><!--lang_stats_browser--> 5: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_230">
+		<td>&nbsp;</td>
+		<td align="center">30</td>
+		<td align="center">08:46:57</td>
+		<td align="center">08:47:28</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=information/contact" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=information/contact</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_231">
+		<td>&nbsp;</td>
+		<td align="center">31</td>
+		<td align="center">08:47:28</td>
+		<td align="center">08:47:31</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_232">
+		<td>&nbsp;</td>
+		<td align="center">32</td>
+		<td align="center">08:47:31</td>
+		<td align="center">08:47:37</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/order" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/order</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_233">
+		<td>&nbsp;</td>
+		<td align="center">33</td>
+		<td align="center">08:47:37</td>
+		<td align="center">08:47:44</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/address" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/address</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_234">
+		<td>&nbsp;</td>
+		<td align="center">34</td>
+		<td align="center">08:47:44</td>
+		<td align="center">08:56:25</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/account</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_235">
+		<td>&nbsp;</td>
+		<td align="center">35</td>
+		<td align="center">08:56:25</td>
+		<td align="center">08:59:30</td>
+		<td colspan="5"><!--lang_stats_browser--> 6: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr>
+		<td>3</td>
+		<td align="center"><a href="javascript:switchRowVisibility('pl_3');"><strong>5</strong></a></td>
+		<td align="center">13:15:40</td>
+		<td align="center">13:24:38</td>
+		<td NOWRAP>United States</td>
+		<td NOWRAP>Mumbai</td>
+		<td NOWRAP>Chrome 27</td>
+		<td NOWRAP>Windows 7</td>
+		<td class="vm" align="right"><div class="ico_info" onclick="showInfoBox('Tata Teleservices (maharashtra) Ltd','18','2','192.168.1.1','','88cae3dd98',this); return true;"></div></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_31">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">13:15:40</td>
+		<td align="center">13:23:15</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/" target="_blank">http://dev.eluminousdev.com/bungaIndo/</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_32">
+		<td>&nbsp;</td>
+		<td align="center">2</td>
+		<td align="center">13:23:15</td>
+		<td align="center">13:23:34</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/search&amp;location_name=mumbai&amp;category_id=&amp;available_date=" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/search&amp;location_name=mumbai&amp;category_id=&amp;available_date=</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_33">
+		<td>&nbsp;</td>
+		<td align="center">3</td>
+		<td align="center">13:23:34</td>
+		<td align="center">13:23:46</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_34">
+		<td>&nbsp;</td>
+		<td align="center">4</td>
+		<td align="center">13:23:46</td>
+		<td align="center">13:24:08</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_35">
+		<td>&nbsp;</td>
+		<td align="center">5</td>
+		<td align="center">13:24:08</td>
+		<td align="center">13:24:38</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+	<tr>
+		<td>4</td>
+		<td align="center"><a href="javascript:switchRowVisibility('pl_4');"><strong>1</strong></a></td>
+		<td align="center">13:42:56</td>
+		<td align="center">13:42:56</td>
+		<td NOWRAP>India</td>
+		<td NOWRAP>Mumbai</td>
+		<td NOWRAP>Chrome 27</td>
+		<td NOWRAP>Windows 7</td>
+		<td class="vm" align="right"><div class="ico_info" onclick="showInfoBox('Tata Teleservices (maharashtra) Ltd','19','3','192.168.1.1','','88cae3dd98',this); return true;"></div></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_41">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">13:42:56</td>
+		<td align="center">13:42:56</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=checkout/cart</a></td>
+	</tr>
+
+			</table>
+			<br>
+		</td>
+	</tr>
+</table>

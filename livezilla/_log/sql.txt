@@ -1,0 +1,249 @@
+1372069596 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_browser_urls` (`browser_id`, `entrance`, `referrer`, `url`, `params`, `untouched`, `title`, `ref_untouched`, `is_entrance`, `is_exit`) VALUES ('af8c6c2e27', '1372069587', '1', '6', '?route=account/address', 'http://localhost/bungaIndo/index.php?route=account/address', 'Address Book', '', 0, 1);
+1372069596 - 2006: MySQL server has gone away
+
+SQL: UPDATE `livezilla_visitor_browsers` SET `last_update`='49' WHERE `id`='af8c6c2e27' AND `visitor_id`='9dc93fbef4' LIMIT 1;
+1372069596 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_website_pushs` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `displayed` ASC,`accepted` ASC,`declined` ASC,`created` ASC LIMIT 1;
+1372069596 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_chat_requests` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `closed` ASC,`created` DESC;
+1372069596 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_alerts` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `accepted` ASC,`created` ASC;
+1372069596 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_overlay_boxes` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `displayed` ASC,`created` ASC LIMIT 1;
+1372069596 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_chat_requests` WHERE `receiver_user_id`='9dc93fbef4' ORDER BY `closed` ASC,`created` DESC;
+1372069596 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_visitor_chats` WHERE `visitor_id`='9dc93fbef4' AND `last_active` > 1372069528 AND (`status` > 0 OR `waiting`=1);
+1372069597 - 2006: MySQL server has gone away
+
+SQL: UPDATE `livezilla_visitor_browser_urls` SET `is_exit`=0 WHERE `browser_id`='af8c6c2e27';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_paths` (`id`, `path`) VALUES (NULL, '');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_paths` WHERE `path`='';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_paths` (`id`, `path`) VALUES (NULL, 'INVALID_DATA');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_paths` WHERE `path`='INVALID_DATA';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_domains` (`id`, `domain`, `search`) VALUES (NULL, '', '0');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id`,`external`,`search` FROM `livezilla_visitor_data_domains` WHERE `domain`='';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_area_codes` (`id`, `area_code`) VALUES (NULL, '');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_area_codes` WHERE `area_code`='';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_area_codes` (`id`, `area_code`) VALUES (NULL, 'INVALID_DATA');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_area_codes` WHERE `area_code`='INVALID_DATA';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_titles` (`id`, `title`) VALUES (NULL, '');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_titles` WHERE `title`='';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_pages` (`id`, `path`, `domain`,  `title`, `area_code`) VALUES (NULL, '',  '',  '', '');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id`,`title` FROM `livezilla_visitor_data_pages` WHERE `path`='' AND `domain`='';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_paths` (`id`, `path`) VALUES (NULL, '/bungaIndo/');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_paths` WHERE `path`='/bungaIndo/';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_paths` (`id`, `path`) VALUES (NULL, 'INVALID_DATA');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_paths` WHERE `path`='INVALID_DATA';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_domains` (`id`, `domain`, `search`) VALUES (NULL, 'http://localhost', '0');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id`,`external`,`search` FROM `livezilla_visitor_data_domains` WHERE `domain`='http://localhost';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_area_codes` (`id`, `area_code`) VALUES (NULL, '');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_area_codes` WHERE `area_code`='';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_area_codes` (`id`, `area_code`) VALUES (NULL, 'INVALID_DATA');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_area_codes` WHERE `area_code`='INVALID_DATA';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_titles` (`id`, `title`) VALUES (NULL, 'My Account Information');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: UPDATE `livezilla_visitor_data_titles` SET `confirmed`=`confirmed`+1 WHERE `title`='My Account Information' LIMIT 1;
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_titles` WHERE `title`='My Account Information';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_pages` (`id`, `path`, `domain`,  `title`, `area_code`) VALUES (NULL, '',  '',  '', '');
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT `id`,`title` FROM `livezilla_visitor_data_pages` WHERE `path`='' AND `domain`='';
+1372069597 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_browser_urls` (`browser_id`, `entrance`, `referrer`, `url`, `params`, `untouched`, `title`, `ref_untouched`, `is_entrance`, `is_exit`) VALUES ('af8c6c2e27', '1372069594', '', '', '?route=account/account', 'http://localhost/bungaIndo/index.php?route=account/account', 'My Account Information', '', 0, 1);
+1372069597 - 2006: MySQL server has gone away
+
+SQL: UPDATE `livezilla_visitor_browsers` SET `last_update`='d1' WHERE `id`='af8c6c2e27' AND `visitor_id`='9dc93fbef4' LIMIT 1;
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_website_pushs` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `displayed` ASC,`accepted` ASC,`declined` ASC,`created` ASC LIMIT 1;
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_chat_requests` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `closed` ASC,`created` DESC;
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_alerts` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `accepted` ASC,`created` ASC;
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_overlay_boxes` WHERE `receiver_user_id`='9dc93fbef4' AND `receiver_browser_id`='af8c6c2e27' ORDER BY `displayed` ASC,`created` ASC LIMIT 1;
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_chat_requests` WHERE `receiver_user_id`='9dc93fbef4' ORDER BY `closed` ASC,`created` DESC;
+1372069597 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_visitor_chats` WHERE `visitor_id`='9dc93fbef4' AND `last_active` > 1372069529 AND (`status` > 0 OR `waiting`=1);
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_visitor_chats` WHERE `visitor_id`='a2a44f5f4d' AND `last_active` > 1372069564 AND (`status` > 0 OR `waiting`=1);
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_visitor_chats` WHERE `visitor_id`='88cae3dd98' AND `last_active` > 1372069564 AND (`status` > 0 OR `waiting`=1);
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_visitor_chats` WHERE `visitor_id`='a2a44f5f4d' AND `last_active` > 1372069564 AND (`status` > 0 OR `waiting`=1);
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069632 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_groups`;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id`,`title` FROM `livezilla_visitor_data_pages` WHERE `path`='1' AND `domain`='1';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: UPDATE `livezilla_visitor_data_pages` SET `title`=(SELECT `id` FROM `livezilla_visitor_data_titles` WHERE id='1' OR id='' ORDER BY `confirmed` DESC LIMIT 1) WHERE `path`='1' AND `domain`='1';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_paths` (`id`, `path`) VALUES (NULL, '/bungaIndo/');
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_paths` WHERE `path`='/bungaIndo/';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_paths` (`id`, `path`) VALUES (NULL, 'INVALID_DATA');
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_paths` WHERE `path`='INVALID_DATA';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_domains` (`id`, `domain`, `search`) VALUES (NULL, 'http://dev.eluminousdev.com', '0');
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id`,`external`,`search` FROM `livezilla_visitor_data_domains` WHERE `domain`='http://dev.eluminousdev.com';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_area_codes` (`id`, `area_code`) VALUES (NULL, '');
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_area_codes` WHERE `area_code`='';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_area_codes` (`id`, `area_code`) VALUES (NULL, 'INVALID_DATA');
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_area_codes` WHERE `area_code`='INVALID_DATA';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_titles` (`id`, `title`) VALUES (NULL, 'Register Account');
+1372069633 - 2006: MySQL server has gone away
+
+SQL: UPDATE `livezilla_visitor_data_titles` SET `confirmed`=`confirmed`+1 WHERE `title`='Register Account' LIMIT 1;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id` FROM `livezilla_visitor_data_titles` WHERE `title`='Register Account';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_data_pages` (`id`, `path`, `domain`,  `title`, `area_code`) VALUES (NULL, '',  '',  '', '');
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT `id`,`title` FROM `livezilla_visitor_data_pages` WHERE `path`='' AND `domain`='';
+1372069633 - 2006: MySQL server has gone away
+
+SQL: INSERT INTO `livezilla_visitor_browser_urls` (`browser_id`, `entrance`, `referrer`, `url`, `params`, `untouched`, `title`, `ref_untouched`, `is_entrance`, `is_exit`) VALUES ('edaeb318c8', '1372069628', '', '', '?route=account/login_register', 'http://dev.eluminousdev.com/bungaIndo/index.php?route=account/login_register', 'Register Account', '', 0, 1);
+1372069633 - 2006: MySQL server has gone away
+
+SQL: UPDATE `livezilla_visitor_browsers` SET `last_update`='7f' WHERE `id`='edaeb318c8' AND `visitor_id`='88cae3dd98' LIMIT 1;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_website_pushs` WHERE `receiver_user_id`='88cae3dd98' AND `receiver_browser_id`='edaeb318c8' ORDER BY `displayed` ASC,`accepted` ASC,`declined` ASC,`created` ASC LIMIT 1;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_chat_requests` WHERE `receiver_user_id`='88cae3dd98' AND `receiver_browser_id`='edaeb318c8' ORDER BY `closed` ASC,`created` DESC;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_alerts` WHERE `receiver_user_id`='88cae3dd98' AND `receiver_browser_id`='edaeb318c8' ORDER BY `accepted` ASC,`created` ASC;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_overlay_boxes` WHERE `receiver_user_id`='88cae3dd98' AND `receiver_browser_id`='edaeb318c8' ORDER BY `displayed` ASC,`created` ASC LIMIT 1;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_chat_requests` WHERE `receiver_user_id`='88cae3dd98' ORDER BY `closed` ASC,`created` DESC;
+1372069633 - 2006: MySQL server has gone away
+
+SQL: SELECT * FROM `livezilla_visitor_chats` WHERE `visitor_id`='88cae3dd98' AND `last_active` > 1372069565 AND (`status` > 0 OR `waiting`=1);

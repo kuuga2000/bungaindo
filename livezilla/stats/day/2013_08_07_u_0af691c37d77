@@ -1,0 +1,123 @@
+<table cellpadding="0" cellspacing="0" align="center" width="900">
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line"><!--lang_stats_visitors--></td>
+					<td class="header_line" align="right">07.08.2013</td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">&nbsp;&nbsp;2 <!--lang_stats_visitors--></td>
+					<td class="header_nav_line" align="right">Status:&nbsp;&nbsp;<!--lang_stats_status_closed-->&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15">#</td>
+					<td class="bt_column_header" width="40" align="center"><!--lang_stats_pages--></td>
+					<td class="bt_column_header" width="60" align="center"><!--lang_stats_entrance--></td>
+					<td class="bt_column_header" width="60" align="center"><!--lang_stats_exit--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_country--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_city--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_browser--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_system--></td>
+					<td class="bt_column_header" width="25">&nbsp;</td>
+				</tr>
+				
+	<tr>
+		<td>1</td>
+		<td align="center"><a href="javascript:switchRowVisibility('pl_1');"><strong>4</strong></a></td>
+		<td align="center">07:47:00</td>
+		<td align="center">07:48:33</td>
+		<td NOWRAP>United States</td>
+		<td NOWRAP><!--lang_stats_unknown--></td>
+		<td NOWRAP>FireFox 22</td>
+		<td NOWRAP>Windows 7</td>
+		<td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','192.168.1.1','','5ab2cf4d6f',this); return true;"></div></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_11">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">07:47:00</td>
+		<td colspan="5">Referrer: <a href="http://dereferrer.livezilla.biz/?url=http://eluminoustechnologies.com/extended-js" target="_blank">http://eluminoustechnologies.com/extended-js</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_12">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">07:47:00</td>
+		<td align="center">07:48:11</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/" target="_blank">http://dev.eluminousdev.com/bungaIndo/</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_13">
+		<td>&nbsp;</td>
+		<td align="center">2</td>
+		<td align="center">07:48:11</td>
+		<td align="center">07:48:33</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=62" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=62</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_14">
+		<td>&nbsp;</td>
+		<td align="center">3</td>
+		<td align="center">07:48:33</td>
+		<td align="center">07:48:33</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=64_82" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/category&amp;path=64_82</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_15">
+		<td>&nbsp;</td>
+		<td align="center">4</td>
+		<td align="center">07:48:25</td>
+		<td align="center">07:49:55</td>
+		<td colspan="5"><!--lang_stats_browser--> 2: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/livezilla/chat.php" target="_blank">http://dev.eluminousdev.com/bungaIndo/livezilla/chat.php</a></td>
+	</tr>
+
+	<tr>
+		<td>2</td>
+		<td align="center"><a href="javascript:switchRowVisibility('pl_2');"><strong>2</strong></a></td>
+		<td align="center">10:13:07</td>
+		<td align="center">10:13:08</td>
+		<td NOWRAP>United States</td>
+		<td NOWRAP><!--lang_stats_unknown--></td>
+		<td NOWRAP>FireFox 22</td>
+		<td NOWRAP>Windows XP</td>
+		<td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','192.168.1.1','','bf965ebb11',this); return true;"></div></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_21">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">10:13:07</td>
+		<td colspan="5">Referrer: <a href="http://dereferrer.livezilla.biz/?url=http://eluminoustechnologies.com/open-cart" target="_blank">http://eluminoustechnologies.com/open-cart</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_22">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">10:13:07</td>
+		<td align="center">10:13:08</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/" target="_blank">http://dev.eluminousdev.com/bungaIndo/</a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_23">
+		<td>&nbsp;</td>
+		<td align="center">2</td>
+		<td align="center">10:13:08</td>
+		<td align="center">10:13:08</td>
+		<td colspan="5"><!--lang_stats_browser--> 1: <a href="http://dereferrer.livezilla.biz/?url=http://dev.eluminousdev.com/bungaIndo/index.php?route=product/search&amp;location_name=&amp;category_id=&amp;available_date=" target="_blank">http://dev.eluminousdev.com/bungaIndo/index.php?route=product/search&amp;location_name=&amp;category_id=&amp;available_date=</a></td>
+	</tr>
+
+			</table>
+			<br>
+		</td>
+	</tr>
+</table>

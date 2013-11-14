@@ -1,0 +1,37 @@
+ <modification>
+        <id>simple despatch note</id>
+        <version>2.0multi</version>
+        <vqmver>1.0</vqmver>
+        <author>ocextensions.co.uk</author>
+		   <!--<file name="admin/view/template/sale/order_info.tpl">
+             <operation>
+                        <search position="after" ><![CDATA[<div class="breadcrumb">]]></search>
+                        <add><![CDATA[<?php $this->load->language('sale/despatch_buttons'); ?>]]></add>
+              </operation>
+                <operation>
+                        <search position="replace" ><![CDATA[<div class="buttons"><a href="<?php echo $invoice; ?>" target="_blank" class="button"><?php echo $button_invoice; ?></a><a href="<?php echo $cancel; ?>" class="button"><?php echo $button_cancel; ?></a></div>]]></search>
+                        <add><![CDATA[<div class="buttons">
+<a href="<?php echo $despatch; ?>"target="_blank"  class="button"><?php echo $this->language->get('button_despatch'); ?></a>
+<a  href="<?php echo $invoice; ?>"target="_blank"  class="button"><?php echo $button_invoice; ?></a>
+<a href="<?php echo $cancel; ?>" class="button"><?php echo $button_cancel; ?></a>
+</div>]]></add>
+                </operation>
+        </file>-->
+        <file name="admin/controller/sale/order.php">
+             <operation>
+            <search position="before" index="2"><![CDATA[$this->data['invoice']]]></search>
+            <add><![CDATA[                        $this->data['despatch'] = $this->url->link('sale/despatch/despatch', 'token=' . $this->session->data['token'] . '&order_id=' . (int)$this->request->get['order_id'], 'SSL');]]></add>
+                </operation>
+            <operation>
+            <search position="after"><![CDATA[$this->data['delete']]]></search>
+            <add><![CDATA[                $this->data['despatch'] = $this->url->link('sale/despatch/despatch', 'token=' . $this->session->data['token'], 'SSL');]]></add>
+                </operation>
+        </file>
+       <!-- <file name="admin/view/template/sale/order_list.tpl">
+        	<operation>
+        		<search position="replace"><![CDATA[<div class="buttons">]]></search>
+        		<add><![CDATA[<div class="buttons"><a onclick="$('#form').attr('action', '<?php echo $despatch; ?>'); $('#form').attr('target', '_blank'); $('#form').submit();" class="button">Delivery Notes</a>]]></add>
+                 </operation> 
+        </file> -->
+ </modification>
+      
