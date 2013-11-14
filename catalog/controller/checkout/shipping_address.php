@@ -266,6 +266,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 			$this->session->data['shipping_postcode'] = $this->request->post['postcode'];
 			$this->session->data['comment'] = $this->request->post['comment'];
 			$this->session->data['date_available'] = $this->request->post['date_available'];
+			
 			//echo $this->request->post['zone_id']; exit;				
 			unset($this->session->data['shipping_method']);						
 			unset($this->session->data['shipping_methods']);
@@ -349,6 +350,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 		}
 		
 		//--------validation and post functions end
+		//print_r($this->request->post);exit;
 		foreach($this->request->post AS $key=>$value)
 		{
 			if (isset($value['firstname'])) {

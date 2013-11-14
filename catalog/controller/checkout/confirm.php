@@ -16,7 +16,8 @@ class ControllerCheckoutConfirm extends Controller {
 			$this->load->model('account/address');
 			$this->language->load('checkout/checkout');
 			$this->language->load('checkout/cart');
-		//	echo "<pre>"; print_r($this->session->data);
+		    //echo "<pre>"; print_r($this->session->data);
+			
 			//$this->data['date_available']=$this->session->data['date_available'];
 			$this->data['delivery_date_pass']= $this->session->data['delivery_date'] ;
 			$this->data['text_use_coupon'] = $this->language->get('text_use_coupon');
@@ -471,7 +472,10 @@ class ControllerCheckoutConfirm extends Controller {
                     $data['shipping_address_format'] = $orderProduct['shppingAddres']['shipping_address_format'];
                     $data['shipping_method'] = 'Flat Shipping Rate';
 					$data['shipping_code'] = 'flat.flat';
-					$data['del_date']=	($this->session->data['delivery_date'][$orderProduct['product_id']]);	
+					echo $data['del_date']=	($this->session->data['delivery_date'][$orderProduct['product_id']]);
+					exit; //added by kuuga november 14, 2013
+					echo $data['time'] = ($this->session->data['time'][$orderProduct['product_id']]);
+					
 					$newSubTotal = (int)$upsellPrice + ((int)$orderProduct['priceNumeric'] * (int)$orderProduct['quantity']);
 					if(isset($this->session->data['hideSender'][$orderProduct['product_id']]) && $this->session->data['hideSender'][$orderProduct['product_id']] == 1)
 					{
@@ -556,6 +560,7 @@ class ControllerCheckoutConfirm extends Controller {
 					$data['comment'] = $this->session->data['comment_message'][$orderProduct['product_id']];
 					
 					$orderId = $this->model_checkout_order->addOrder($data);
+					
 					$this->session->data['ordersId'][$orderCount] = $orderId;
 					$this->language->load('payment/bank_transfer');
 					
