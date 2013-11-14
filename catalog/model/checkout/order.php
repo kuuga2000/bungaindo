@@ -2,7 +2,7 @@
 class ModelCheckoutOrder extends Model {
 
 	
-	public function addOrder($data) {								//echo $this->db->escape($data['invoice_prefix']);		//exit;
+	public function addOrder($data) {
 		$hideSender = 0;
 		if(isset($data['hideSender']))
 		{
@@ -24,11 +24,11 @@ class ModelCheckoutOrder extends Model {
 
 		//$order_id = $this->db->getLastId();
 
-		foreach ($data['products'] as $product) { 		
+		foreach ($data['products'] as $product) { 
 	//echo "<pre>";	print_r($data['del_date']); die("br");
 		//----------------------------------------------------
 		// TO CHECK WHETHER del_date has thr product index.
-		$key_date=$product['product_id'];         //echo $data['time'];exit;
+		$key_date=$product['product_id']; 
 		if(isset($data['del_date'])) //if($delivery_date_pass[$key_date]!='')
          {  $ddate=date('Y-m-d',strtotime($data['del_date']));} 
          else $ddate= '-';

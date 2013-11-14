@@ -2,9 +2,10 @@
 class ControllerCheckoutShippingAddress extends Controller {
 		private $error = array();
 	public function index() {
-		//echo "haha";
+		
 		if (!$this->customer->isLogged()) {
 	  		$this->session->data['redirect'] = $this->url->link('checkout/shipping_address', '', 'SSL');
+	  
 	  		$this->redirect($this->url->link('account/login_register', '', 'SSL'));
     	}
 		 
@@ -27,7 +28,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 			$json['redirect'] = $this->url->link('checkout/cart');
 		}		
 		
-		$this->load->model('catalog/product');
+			$this->load->model('catalog/product');
 			
 		$this->load->model('tool/image');
 		
@@ -215,8 +216,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 		//echo "<pre>"; print_r($this->data['products']);
 		//--------validation and post functions start
 		if (($this->request->server['REQUEST_METHOD'] == 'POST')   && $this->validate())
-		{
-			 
+		{ 
 			foreach($this->request->post AS $product)
 			{
 				$key = $product['productId'];
@@ -266,8 +266,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 			$this->session->data['shipping_postcode'] = $this->request->post['postcode'];
 			$this->session->data['comment'] = $this->request->post['comment'];
 			$this->session->data['date_available'] = $this->request->post['date_available'];
-			
-			//echo $this->request->post['zone_id']; exit;				
+							
 			unset($this->session->data['shipping_method']);						
 			unset($this->session->data['shipping_methods']);
 			$this->redirect($this->url->link('checkout/confirm'));	
@@ -350,7 +349,6 @@ class ControllerCheckoutShippingAddress extends Controller {
 		}
 		
 		//--------validation and post functions end
-		//print_r($this->request->post);exit;
 		foreach($this->request->post AS $key=>$value)
 		{
 			if (isset($value['firstname'])) {
@@ -467,7 +465,6 @@ class ControllerCheckoutShippingAddress extends Controller {
 						{
 							
 							 $this->session->data['shipping_address_id'][$key] = $this->model_account_address->addAddress($value);
-							 //print_r($this->session->data['shipping_address_id'][$key]);
 						}
 						else
 						{

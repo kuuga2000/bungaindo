@@ -1,7 +1,16 @@
 <?php
 class ModelAccountAddress extends Model {
 	public function addAddress($data) {
-		if(isset($data['telephone']))		{			$telephone = $data['telephone'];		}		else		{			$telephone = '';		}
+		
+		
+		if(isset($data['telephone']))
+		{
+			$telephone = $data['telephone'];
+		}
+		else
+		{
+			$telephone = '';
+		}
 		
 		if(isset($data['address_title']))
 		{
@@ -10,7 +19,7 @@ class ModelAccountAddress extends Model {
 		else
 		{
 			$address_title = '';
-		}				//echo $this->db->escape($data['time']);exit;
+		}
 		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$this->customer->getId() . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', company_id = '" . $this->db->escape(isset($data['company_id']) ? $data['company_id'] : '') . "', tax_id = '" . $this->db->escape(isset($data['tax_id']) ? $data['tax_id'] : '') . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', city = '" . $this->db->escape($data['city']) . "', zone_id = '" . (int)$data['zone_id'] . "', country_id = '" . (int)$data['country_id'] . "', telephone = '".(int)$telephone."', address_title = '".$this->db->escape($address_title)."' , recipient_location = '".$this->db->escape($data['recipient_location'])."'");
 		
 		$address_id = $this->db->getLastId();
