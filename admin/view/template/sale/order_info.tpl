@@ -311,6 +311,8 @@
             <tr>
               <td class="left"><?php echo $column_product; ?></td>
               <td class="left"><?php echo $column_model; ?></td>
+
+			  <td class="left">Order Date/Time</td>
               <td class="right"><?php echo $column_quantity; ?></td>
               <td class="right"><?php echo $column_price; ?></td>
               <td class="right"><?php echo $column_total; ?></td>
@@ -329,6 +331,7 @@
                 <?php } ?>
                 <?php } ?></td>
               <td class="left"><?php echo $product['model']; ?></td>
+<td class="left"><?php echo $product['delivery_date']; ?> / <?=$product['order_time'];?></td>
               <td class="right"><?php echo $product['quantity']; ?></td>
               <td class="right"><?php echo $product['price']; ?></td>
               <td class="right"><?php echo $product['total']; ?></td>
@@ -347,7 +350,7 @@
           <?php foreach ($totals as $totals) { ?>
           <tbody id="totals">
             <tr>
-              <td colspan="4" class="right"><?php echo $totals['title']; ?>:</td>
+              <td colspan="5" class="right"><?php echo $totals['title']; ?>:</td>
               <td class="right"><?php echo $totals['text']; ?></td>
             </tr>
           </tbody>

@@ -254,8 +254,8 @@ class ControllerAccountOrder extends Controller {
 					array_multisort($sort_order, SORT_ASC, $total_data);			
 				}
 			}
-	$this->data['totals'] = $this->model_account_order->getOrderTotals($this->request->get['order_id']);
-		//	$this->data['totals'] = $total_data;
+			$this->data['totals'] = $this->model_account_order->getOrderTotals($this->request->get['order_id']);
+			//$this->data['totals'] = $total_data;
 			//echo "<pre>"; print_r($this->data['totals']);
 			
 			

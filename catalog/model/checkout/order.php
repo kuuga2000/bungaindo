@@ -24,6 +24,7 @@ class ModelCheckoutOrder extends Model {
 
 		//$order_id = $this->db->getLastId();
 
+		$i=0;
 		foreach ($data['products'] as $product) { 
 	//echo "<pre>";	print_r($data['del_date']); die("br");
 		//----------------------------------------------------
@@ -40,7 +41,7 @@ class ModelCheckoutOrder extends Model {
 		$res = $getMethode->row;
 		$shipping = $res['shippingMethod'];
 		
-			$this->db->query("INSERT INTO " . DB_PREFIX . "order_product SET order_id = '" . (int)$order_id . "', product_id = '" . (int)$product['product_id'] . "', name = '" . $this->db->escape($product['name']) . "', model = '" . $this->db->escape($product['model']) . "', quantity = '" . (int)$product['quantity'] . "', price = '" . (float)$product['price'] . "', total = '" . (float)$product['total'] . "', tax = '" . (float)$product['tax'] . "', reward = '" . (int)$product['reward'] . "', delivery_date ='".$ddate."', shippingMethod ='".$this->db->escape($shipping) ."' ");
+			$this->db->query("INSERT INTO " . DB_PREFIX . "order_product SET order_time='".$this->session->data['time'][$i]."',order_id = '" . (int)$order_id . "', product_id = '" . (int)$product['product_id'] . "', name = '" . $this->db->escape($product['name']) . "', model = '" . $this->db->escape($product['model']) . "', quantity = '" . (int)$product['quantity'] . "', price = '" . (float)$product['price'] . "', total = '" . (float)$product['total'] . "', tax = '" . (float)$product['tax'] . "', reward = '" . (int)$product['reward'] . "', delivery_date ='".$ddate."', shippingMethod ='".$this->db->escape($shipping) ."' ");
  
 			$order_product_id = $this->db->getLastId();
 
@@ -51,7 +52,9 @@ class ModelCheckoutOrder extends Model {
 			foreach ($product['download'] as $download) {
 				$this->db->query("INSERT INTO " . DB_PREFIX . "order_download SET order_id = '" . (int)$order_id . "', order_product_id = '" . (int)$order_product_id . "', name = '" . $this->db->escape($download['name']) . "', filename = '" . $this->db->escape($download['filename']) . "', mask = '" . $this->db->escape($download['mask']) . "', remaining = '" . (int)($download['remaining'] * $product['quantity']) . "'");
 			}	
+			$i++;
 		}
+		unset($this->session->data['time']);
 		
 		foreach ($data['vouchers'] as $voucher) {
 			$this->db->query("INSERT INTO " . DB_PREFIX . "order_voucher SET order_id = '" . (int)$order_id . "', description = '" . $this->db->escape($voucher['description']) . "', code = '" . $this->db->escape($voucher['code']) . "', from_name = '" . $this->db->escape($voucher['from_name']) . "', from_email = '" . $this->db->escape($voucher['from_email']) . "', to_name = '" . $this->db->escape($voucher['to_name']) . "', to_email = '" . $this->db->escape($voucher['to_email']) . "', voucher_theme_id = '" . (int)$voucher['voucher_theme_id'] . "', message = '" . $this->db->escape($voucher['message']) . "', amount = '" . (float)$voucher['amount'] . "'");

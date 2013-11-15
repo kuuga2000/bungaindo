@@ -182,6 +182,25 @@ foreach($cart_products as $cart_product)
 		            <span class="error"><?php echo $error[$cart_product['key']]['error_date_available']; ?></span>
 		            <?php } ?></td>
 		    </tr>
+						<tr>
+				<td colspan="3"></td>
+			</tr>
+			<tr>
+				<td style="width: 112px"><span class="ship_form_pad">Order time</span></td>
+				<td width="35" align="center"><span class="ship_form_pad">:</span></td>
+				<td>
+				<div class="skin skin-minimal">
+
+				<input type="radio" name="<?php echo $cart_product['key'] ?>[time]" value="09:00-17:00" checked="checked" /><label style="padding-left:4px;">09:00-17:00</label>
+					<div style="height:3px;"></div>
+					<input type="radio" name="<?php echo $cart_product['key'] ?>[time]" value="17:00-22:00" /><label style="padding-left:4px;">17:00-22:00</label>
+					
+				</div>
+				
+					 
+					
+				</td>
+			</tr>
 	</table>
 	</div>
   </div>																																											
