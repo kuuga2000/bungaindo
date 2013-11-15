@@ -360,11 +360,16 @@ class ControllerCommonHome extends Controller {
 			}
 				
 			$ignore = array_merge($ignore, $config_ignore);
-									if ($this->session->data['token']!=''){				$this->request->get['token'] = $this->session->data['token'];			}
+			if ($this->session->data['token']!=''){
+				$this->request->get['token'] = $this->session->data['token'];
+			}			
 			if (!in_array($route, $ignore) && (!isset($this->request->get['token']) || !isset($this->session->data['token']) || ($this->request->get['token'] != $this->session->data['token']))) {
 				return $this->forward('common/login');
 			}
-		} else {			if ($this->session->data['token']!=''){				$this->request->get['token'] = $this->session->data['token'];			}
+		} else {
+			if ($this->session->data['token']!=''){
+				$this->request->get['token'] = $this->session->data['token'];
+			}
 			if (!isset($this->request->get['token']) || !isset($this->session->data['token']) || ($this->request->get['token'] != $this->session->data['token'])) {
 				return $this->forward('common/login');
 			}

@@ -146,9 +146,9 @@ $_['error_recaptcha']      = '*Incorrect verification code';
 
 
 
-$_['public_key']			='6Lf78ucSAAAAAJvDNirY93YerVd2tIUoc1USi-2G';
+$_['public_key']			='6LfH-egSAAAAACHO95PgArsiIYgRMb2BmUMr1Ee4';
 
-$_['private_key']			='6Lf78ucSAAAAAN5XVvNMH4OQVlDFuJ-7L4OdEt1E';
+$_['private_key']			='6LfH-egSAAAAAMWJA2udUtF1Uv60Gm4ViXZQUdI5';
 
 
 

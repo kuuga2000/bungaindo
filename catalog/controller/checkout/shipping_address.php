@@ -216,18 +216,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 		//echo "<pre>"; print_r($this->data['products']);
 		//--------validation and post functions start
 		if (($this->request->server['REQUEST_METHOD'] == 'POST')   && $this->validate())
-		{
-			
-			foreach($this->request->post AS $key=>$value)
-			{   
-				if (isset($value['time'])) {
-	    			$this->session->data['time'][]=$this->data['values'][$key]['time'] = $value['time'];
-				}
-			}
-			//echo $this->session->data['time'][0];
-			//echo $this->data['values'][$key]['time'];
-			//exit;
-			 
+		{ 
 			foreach($this->request->post AS $product)
 			{
 				$key = $product['productId'];
@@ -280,7 +269,6 @@ class ControllerCheckoutShippingAddress extends Controller {
 							
 			unset($this->session->data['shipping_method']);						
 			unset($this->session->data['shipping_methods']);
-			//echo $time[] = $this->request->post['time'];exit;
 			$this->redirect($this->url->link('checkout/confirm'));	
 			
 		}
@@ -363,14 +351,6 @@ class ControllerCheckoutShippingAddress extends Controller {
 		//--------validation and post functions end
 		foreach($this->request->post AS $key=>$value)
 		{
-			if (isset($value['time'])) {
-	    			$this->data['values'][$key]['time'] = $value['time'];
-			}
-			
-			if (isset($value['time'])) {
-	    			$this->data['values'][$key]['time'] = $value['time'];
-			}
-			   
 			if (isset($value['firstname'])) {
 	    		$this->data['values'][$key]['firstname'] = $value['firstname'];
 			} else {

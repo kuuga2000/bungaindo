@@ -69,6 +69,7 @@ class ControllerSaleOrder extends Controller {
   	}
 	
   	public function update() {
+		
 		$this->language->load('sale/order');
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -77,7 +78,8 @@ class ControllerSaleOrder extends Controller {
 		//echo"<pre>"; print_r($this->request); 
 		//die($this->request->server['REQUEST_METHOD']);
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) { 
-			$this->model_sale_order->editOrder($this->request->get['order_id'], $this->request->post);
+		
+			 $this->model_sale_order->editOrder($this->request->get['order_id'], $this->request->post);
 			
 			//--------------------added by Gaurav on 3rd-june-2013 for Sending email to all vendors in the area where order is placed
 			
@@ -93,11 +95,10 @@ class ControllerSaleOrder extends Controller {
 				if(empty($vendorsArr))
 				{
 					$subject="No Vendor in city ".$shippingCity;
-					$message = "Hello,  <br/>";
-					$message .= "We have no vendor in city ".$shippingCity.".Please create a new vendor account for the same.<br/>";
-					$message .= "Thanks, <br/>";
+					$message = "Hello,  \n";
+					$message .= "We have no vendor in city ".$shippingCity.".Please create a new vendor account for the same.\n";
+					$message .= "Thanks, \n";
 					$message .= $this->config->get('config_name');
-					
 					/* $mail = new Mail(); 
 					$mail->protocol = $this->config->get('config_mail_protocol');
 					$mail->parameter = $this->config->get('config_mail_parameter');
@@ -109,10 +110,8 @@ class ControllerSaleOrder extends Controller {
 					$mail->setTo($this->config->get('config_email'));
 					$mail->setFrom($this->config->get('config_email'));
 					$mail->setSender($this->config->get('config_name'));
-					
 					$mail->setSubject(html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 					//$mail->setHtml($message);
-					
 					$mail->setText(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
 					$mail->send(); */
 					
@@ -120,20 +119,24 @@ class ControllerSaleOrder extends Controller {
 					$mail->IsSMTP();
 					$mail->SMTPAuth = true;
 					$mail->Port = '25';
-					$mail->Host = 'mail.bungaindo.com';
-					$mail->Username = 'admin@bungaindo.com';
-					$mail->Password = 'kebunrayabogor1';
-					$mail->SMTPAuth = true;
-					$mail->AddReplyTo($this->config->get('config_email'));
+					$mail->Host = 'mail.bungaindo.com'; 
+					$mail->Username = 'admin@bungaindo.com'; 
+					$mail->Password = 'kebunrayabogor1'; 
+					$mail->SMTPAuth = true; 
+					$to = $this->config->get('config_email');
+					$mail->AddAddress($to);
 					$mail->From = $this->config->get('config_email');
 					$mail->FromName = $this->config->get('config_name');
-					$mail->AddAddress($this->config->get('config_email'));
 					$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 					$mail->AltBody = "To view the message, please use an HTML compatible email viewer!";
-					$mail->WordWrap = 80;
+					$mail->WordWrap = 80; 
 					$mail->MsgHTML(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
 					$mail->IsHTML(true);
-					$mail->Send();
+					if(!$mail->Send()) {
+						echo "Mailer Error: " . $mail->ErrorInfo;exit;
+					} else {
+						
+					}
 				}
 				//$storeDetails = $this->model_setting_setting->getSetting('config');
 				$storeDetails = $this->model_sale_order->getOrder($this->request->get['order_id']);
@@ -194,20 +197,24 @@ class ControllerSaleOrder extends Controller {
 					$mail->IsSMTP();
 					$mail->SMTPAuth = true;
 					$mail->Port = '25';
-					$mail->Host = 'mail.bungaindo.com';
-					$mail->Username = 'admin@bungaindo.com';
-					$mail->Password = 'kebunrayabogor1';
-					$mail->SMTPAuth = true;
-					$mail->AddReplyTo($this->config->get('config_email'));
+					$mail->Host = 'mail.bungaindo.com'; 
+					$mail->Username = 'admin@bungaindo.com'; 
+					$mail->Password = 'kebunrayabogor1'; 
+					$mail->SMTPAuth = true; 
+					$to = $vendor['email'];
+					$mail->AddAddress($to);
 					$mail->From = $this->config->get('config_email');
 					$mail->FromName = $storeDetails['store_name'];
-					$mail->AddAddress($vendor['email']);
 					$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 					$mail->AltBody = "To view the message, please use an HTML compatible email viewer!";
-					$mail->WordWrap = 80;
+					$mail->WordWrap = 80; 
 					$mail->MsgHTML($html);
 					$mail->IsHTML(true);
-					$mail->Send();
+					if(!$mail->Send()) {
+						echo "Mailer Error: " . $mail->ErrorInfo;exit;
+					} else {
+						
+					}
 					
 				}
 
@@ -242,20 +249,24 @@ class ControllerSaleOrder extends Controller {
 				$mail->IsSMTP();
 				$mail->SMTPAuth = true;
 				$mail->Port = '25';
-				$mail->Host = 'mail.bungaindo.com';
-				$mail->Username = 'admin@bungaindo.com';
-				$mail->Password = 'kebunrayabogor1';
-				$mail->SMTPAuth = true;
-				$mail->AddReplyTo($this->config->get('config_email'));
+				$mail->Host = 'mail.bungaindo.com'; 
+				$mail->Username = 'admin@bungaindo.com'; 
+				$mail->Password = 'kebunrayabogor1'; 
+				$mail->SMTPAuth = true; 
+				$to = $customer['email'];
+				$mail->AddAddress($to);
 				$mail->From = $this->config->get('config_email');
 				$mail->FromName = $storeDetails['store_name'];
-				$mail->AddAddress($customer['email']);
 				$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 				$mail->AltBody = "To view the message, please use an HTML compatible email viewer!";
-				$mail->WordWrap = 80;
+				$mail->WordWrap = 80; 
 				$mail->MsgHTML($html);
 				$mail->IsHTML(true);
-				$mail->Send();
+				if(!$mail->Send()) {
+					echo "Mailer Error: " . $mail->ErrorInfo;exit;
+				} else {
+					
+				}
 			}
 
 			if(isset($this->request->post['orderChanged']) && $this->request->post['orderChanged'] == 1 && ($order_Details['name'] == 'Canceled' || $order_Details['name'] == 'Canceled'))
@@ -286,20 +297,24 @@ class ControllerSaleOrder extends Controller {
 				$mail->IsSMTP();
 				$mail->SMTPAuth = true;
 				$mail->Port = '25';
-				$mail->Host = 'mail.bungaindo.com';
-				$mail->Username = 'admin@bungaindo.com';
-				$mail->Password = 'kebunrayabogor1';
-				$mail->SMTPAuth = true;
-				$mail->AddReplyTo($this->config->get('config_email'));
+				$mail->Host = 'mail.bungaindo.com'; 
+				$mail->Username = 'admin@bungaindo.com'; 
+				$mail->Password = 'kebunrayabogor1'; 
+				$mail->SMTPAuth = true; 
+				$to = $this->request->post['email'];
+				$mail->AddAddress($to);
 				$mail->From = $this->config->get('config_email');
 				$mail->FromName = 'Bunga Indo';
-				$mail->AddAddress($this->request->post['email']);
 				$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 				$mail->AltBody = "To view the message, please use an HTML compatible email viewer!";
-				$mail->WordWrap = 80;
+				$mail->WordWrap = 80; 
 				$mail->MsgHTML($html);
 				$mail->IsHTML(true);
-				$mail->Send();
+				if(!$mail->Send()) {
+					echo "Mailer Error: " . $mail->ErrorInfo;exit;
+				} else {
+					
+				}
 			}
 			//------------------- End of code added by Gaurav on 3rd-june-2013	
 			
@@ -1992,8 +2007,6 @@ class ControllerSaleOrder extends Controller {
 				}
 
 				$this->data['products'][] = array(
-				    'delivery_date'	   => $product['delivery_date'],
-				    'order_time'	   => $product['order_time'],	
 					'order_product_id' => $product['order_product_id'],
 					'product_id'       => $product['product_id'],
 					'name'    	 	   => $product['name'],
@@ -2976,21 +2989,25 @@ class ControllerSaleOrder extends Controller {
 			$mail->IsSMTP();
 			$mail->SMTPAuth = true;
 			$mail->Port = '25';
-			$mail->Host = 'mail.bungaindo.com';
-			$mail->Username = 'admin@bungaindo.com';
-			$mail->Password = 'kebunrayabogor1';
-			$mail->SMTPAuth = true;
-			$mail->AddReplyTo($this->config->get('config_email'));
+			$mail->Host = 'mail.bungaindo.com'; 
+			$mail->Username = 'admin@bungaindo.com'; 
+			$mail->Password = 'kebunrayabogor1'; 
+			$mail->SMTPAuth = true; 
+			$to = $vendor['email'];
+			$mail->AddAddress($to);
 			$mail->From = $this->config->get('config_email');
 			$mail->FromName = $orderDetails['store_name'];
-			$mail->AddAddress($vendor['email']);
 			$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 			$mail->AltBody = "To view the message, please use an HTML compatible email viewer!";
-			$mail->WordWrap = 80;
+			$mail->WordWrap = 80; 
 			$mail->MsgHTML($html);
 			$mail->IsHTML(true);
-			$mail->Send();
+			if(!$mail->Send()) {
+				echo "Mailer Error: " . $mail->ErrorInfo;exit;
+			} else {
 				
+			}
+			
 			$json['success'] = 1;
 		}
 		$this->response->setOutput(json_encode($json));

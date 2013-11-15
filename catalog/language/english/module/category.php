@@ -1,6 +1,6 @@
-<?php
-// Headings
-
-$_['heading_title'] = 'View Flowers By ';
-
+<?php
+// Headings
+
+$_['heading_title'] = 'View Flowers By ';
+
 ?>

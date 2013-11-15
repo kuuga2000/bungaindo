@@ -86,18 +86,18 @@ class ModelAccountCustomer extends Model {
 			
 			$subject = sprintf($this->language->get('text_subject'), $this->config->get('config_name'));
 		
-			$message = sprintf($this->language->get('text_welcome'), $this->config->get('config_name')) . "\n\n";
+			$message = sprintf($this->language->get('text_welcome'), $this->config->get('config_name')) . "<br/><br/>";
 		
 			if (!$customer_group_info['approval']) {
-				$message .= $this->language->get('text_login') . "\n";
+				$message .= $this->language->get('text_login') . "<br/>";
 			} else {
-				$message .= $this->language->get('text_approval') . "\n";
+				$message .= $this->language->get('text_approval') . "<br/>";
 			}
-			
-			$message .= $this->language->get('text_activation') . "\n";
-			$message .= $this->url->link('account/login_register&activate='.$strActivationToken, '', 'SSL') . "\n\n";
-			$message .= $this->language->get('text_services') . "\n\n";
-			$message .= $this->language->get('text_thanks') . "\n";
+			$a = $this->url->link('account/login_register&activate='.$strActivationToken, '', 'SSL');
+			$message .= $this->language->get('text_activation') . "<br/>";
+			$message .= "<a href='".$a."'>".$this->url->link('account/login_register&activate='.$strActivationToken, '', 'SSL') . "</a><br/><br/>";
+			$message .= $this->language->get('text_services') . "<br/><br/>";
+			$message .= $this->language->get('text_thanks') . "<br/>";
 			$message .= $this->config->get('config_name');
 
 			$mail = new PHPMailer(true); //New instance, with exceptions enabled
@@ -124,9 +124,8 @@ class ModelAccountCustomer extends Model {
 			$mail->FromName = $this->config->get('config_name');
 
 			/* $to = $this->config->get('config_email'); */
-			$to = $data['email'];
 
-			$mail->AddAddress($to);
+			$mail->AddAddress($data['email']);
 
 			/* if(isset ($this-> request->post['subject']) && $this->request ->post['subject'] != "") {
 				$mail->Subject = ($this ->request->post['subject']." – ". $this->request ->post['name']);
@@ -142,6 +141,7 @@ class ModelAccountCustomer extends Model {
 			$mail->MsgHTML(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
 
 			$mail->IsHTML(true); // send as HTML
+
 			$mail->Send();
 
 			/* $this->redirect( $this->url ->link('information/contact/success')); */
@@ -161,18 +161,18 @@ class ModelAccountCustomer extends Model {
 			$mail->Username = 'admin@bungaindo.com'; // SMTP server username
 			$mail->Password = 'kebunrayabogor1'; // SMTP server password
 			$mail->SMTPAuth = true;
-			$message  = $this->language->get('text_signup') . "\n\n";
-			$message .= $this->language->get('text_website') . ' ' . $this->config->get('config_name') . "\n";
-			$message .= $this->language->get('text_firstname') . ' ' . $data['firstname'] . "\n";
-			$message .= $this->language->get('text_lastname') . ' ' . $data['lastname'] . "\n";
-			$message .= $this->language->get('text_customer_group') . ' ' . $customer_group_info['name'] . "\n";
+			$message  = $this->language->get('text_signup') . "<br/><br/>";
+			$message .= $this->language->get('text_website') . ' ' . $this->config->get('config_name') . "<br/>";
+			$message .= $this->language->get('text_firstname') . ' ' . $data['firstname'] . "<br/>";
+			$message .= $this->language->get('text_lastname') . ' ' . $data['lastname'] . "<br/>";
+			$message .= $this->language->get('text_customer_group') . ' ' . $customer_group_info['name'] . "<br/>";
 			
 			if ($data['company']) {
-				$message .= $this->language->get('text_company') . ' '  . $data['company'] . "\n";
+				$message .= $this->language->get('text_company') . ' '  . $data['company'] . "<br/>";
 			}
 			
-			$message .= $this->language->get('text_email') . ' '  .  $data['email'] . "\n";
-			$message .= $this->language->get('text_telephone') . ' ' . $data['telephone'] . "\n";
+			$message .= $this->language->get('text_email') . ' '  .  $data['email'] . "<br/>";
+			$message .= $this->language->get('text_telephone') . ' ' . $data['telephone'] . "<br/>";
 			
 			$mail->AddAddress($this->config->get('config_email'));
 			$mail->Subject = (html_entity_decode($this->language->get('text_new_customer'), ENT_QUOTES, 'UTF-8'));
@@ -354,7 +354,7 @@ class ModelAccountCustomer extends Model {
 	//--------------- added by Gaurav on 5-june-13 to activated customer
 	public function activateUser($strActivateToken)
 	{
-		$query = $this->db->query("UPDATE " . DB_PREFIX . "customer SET activation_token = '' WHERE activation_token = '".$this->db->escape($strActivateToken)."' ");
+		$query = $this->db->query("UPDATE " . DB_PREFIX . "customer SET activation_token = '',approved='1' WHERE activation_token = '".$this->db->escape($strActivateToken)."' ");
 	}
 	//--------------- added by Sheetal on 27-june-13 to check is customer is activated or not for forgot password
 	public function checkCustomerActivationForgotPassword($strEmail)
@@ -376,7 +376,7 @@ $query = $this->db->query("SELECT email FROM " . DB_PREFIX . "customer WHERE LOW
 		
 			$link = $this->url->link('account/forgotten/validatePasswordToken&token='.$passwordToken, '', 'SSL');
 			
-			$subject = sprintf($this->language->get('text_subject'), $this->config->get('config_name'));
+			/* $subject = sprintf($this->language->get('text_subject'), $this->config->get('config_name'));
 			$message = "Dear User\n\n";
 			$message .= "Please click on below link to accept your reset password request:". "\n\n";
 			$message .= $link . "\n\n";
@@ -394,7 +394,32 @@ $query = $this->db->query("SELECT email FROM " . DB_PREFIX . "customer WHERE LOW
 			$mail->setSender($this->config->get('config_name'));
 			$mail->setSubject(html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 			$mail->setText(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
-			$mail->send();
+			$mail->send(); */
+			
+			$subject = sprintf($this->language->get('text_subject'), $this->config->get('config_name'));
+			$message = "Dear User<br/><br/>";
+			$message .= "Please click on below link to accept your reset password request:". "<br/><br/>";
+			$message .= "<a href=\"".$link."\">".$link . "</a><br/><br/>";
+			$message .= "Thank You<br/>".$this->config->get('config_name');
+			$mail = new PHPMailer(true); //New instance, with exceptions enabled
+			$mail->IsSMTP(); // tell the class to use SMTP
+			$mail->SMTPAuth = true; // enable SMTP authentication
+			$mail->Port = '25'; // set the SMTP server port
+			$mail->Host = 'mail.bungaindo.com'; // SMTP server
+			$mail->Username = 'admin@bungaindo.com'; // SMTP server username
+			$mail->Password = 'kebunrayabogor1'; // SMTP server password
+			$mail->SMTPAuth = true; // enable SMTP authentication
+			//$mail->IsSendmail(); // tell the class to use Sendmail
+			$mail->AddReplyTo($this->config->get('config_email'));
+			$mail->From = $this->config->get('config_email');
+			$mail->FromName = $this->config->get('config_name');
+			$mail->AddAddress($customerEmail);
+			$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
+			$mail->AltBody = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
+			$mail->WordWrap = 80; // set word wrap
+			$mail->MsgHTML(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
+			$mail->IsHTML(true); // send as HTML
+			$mail->Send();
 			
 	 }
 	 

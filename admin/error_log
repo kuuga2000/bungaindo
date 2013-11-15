@@ -1,0 +1,64 @@
+[18-Oct-2013 11:24:00 Asia/Jakarta] PHP Notice:  Error: Table 'bungaind_livezilla.oc_setting' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_setting WHERE store_id = '0' in /home/bungaind/public_html/demo/system/database/mysql.php on line 50
+[18-Oct-2013 11:24:51 Asia/Jakarta] PHP Notice:  Error: Table 'bungaind_livezilla.oc_setting' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_setting WHERE store_id = '0' in /home/bungaind/public_html/demo/system/database/mysql.php on line 50
+[24-Oct-2013 10:00:38 Asia/Jakarta] PHP Fatal error:  Call to undefined method PHPMailer::encoding() in /home/bungaind/public_html/demo/admin/model/vendor/vendor.php on line 32
+[24-Oct-2013 10:01:07 Asia/Jakarta] PHP Fatal error:  Call to undefined method PHPMailer::encoding() in /home/bungaind/public_html/demo/admin/model/vendor/vendor.php on line 32
+[29-Oct-2013 15:38:14 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/bungaind/public_html/demo/system/library/class.phpmailer.php:462
+Stack trace:
+#0 /home/bungaind/public_html/demo/system/library/class.phpmailer.php(408): PHPMailer->AddAnAddress('to', NULL, '')
+#1 /home/bungaind/public_html/demo/admin/controller/sale/order.php(257): PHPMailer->AddAddress(NULL)
+#2 [internal function]: ControllerSaleOrder->update()
+#3 /home/bungaind/public_html/demo/system/engine/front.php(42): call_user_func_array(Array, Array)
+#4 /home/bungaind/public_html/demo/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/bungaind/public_html/demo/admin/index.php(163): Front->dispatch(Object(Action), Object(Action))
+#6 {main}
+  thrown in /home/bungaind/public_html/demo/system/library/class.phpmailer.php on line 462
+[29-Oct-2013 15:38:22 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/bungaind/public_html/demo/system/library/class.phpmailer.php:462
+Stack trace:
+#0 /home/bungaind/public_html/demo/system/library/class.phpmailer.php(408): PHPMailer->AddAnAddress('to', NULL, '')
+#1 /home/bungaind/public_html/demo/admin/controller/sale/order.php(257): PHPMailer->AddAddress(NULL)
+#2 [internal function]: ControllerSaleOrder->update()
+#3 /home/bungaind/public_html/demo/system/engine/front.php(42): call_user_func_array(Array, Array)
+#4 /home/bungaind/public_html/demo/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/bungaind/public_html/demo/admin/index.php(163): Front->dispatch(Object(Action), Object(Action))
+#6 {main}
+  thrown in /home/bungaind/public_html/demo/system/library/class.phpmailer.php on line 462
+[29-Oct-2013 15:44:41 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/bungaind/public_html/demo/system/library/class.phpmailer.php:462
+Stack trace:
+#0 /home/bungaind/public_html/demo/system/library/class.phpmailer.php(408): PHPMailer->AddAnAddress('to', NULL, '')
+#1 /home/bungaind/public_html/demo/admin/controller/sale/order.php(257): PHPMailer->AddAddress(NULL)
+#2 [internal function]: ControllerSaleOrder->update()
+#3 /home/bungaind/public_html/demo/system/engine/front.php(42): call_user_func_array(Array, Array)
+#4 /home/bungaind/public_html/demo/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/bungaind/public_html/demo/admin/index.php(163): Front->dispatch(Object(Action), Object(Action))
+#6 {main}
+  thrown in /home/bungaind/public_html/demo/system/library/class.phpmailer.php on line 462
+[29-Oct-2013 15:44:44 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/bungaind/public_html/demo/system/library/class.phpmailer.php:462
+Stack trace:
+#0 /home/bungaind/public_html/demo/system/library/class.phpmailer.php(408): PHPMailer->AddAnAddress('to', NULL, '')
+#1 /home/bungaind/public_html/demo/admin/controller/sale/order.php(257): PHPMailer->AddAddress(NULL)
+#2 [internal function]: ControllerSaleOrder->update()
+#3 /home/bungaind/public_html/demo/system/engine/front.php(42): call_user_func_array(Array, Array)
+#4 /home/bungaind/public_html/demo/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/bungaind/public_html/demo/admin/index.php(163): Front->dispatch(Object(Action), Object(Action))
+#6 {main}
+  thrown in /home/bungaind/public_html/demo/system/library/class.phpmailer.php on line 462
+[29-Oct-2013 15:44:46 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/bungaind/public_html/demo/system/library/class.phpmailer.php:462
+Stack trace:
+#0 /home/bungaind/public_html/demo/system/library/class.phpmailer.php(408): PHPMailer->AddAnAddress('to', NULL, '')
+#1 /home/bungaind/public_html/demo/admin/controller/sale/order.php(257): PHPMailer->AddAddress(NULL)
+#2 [internal function]: ControllerSaleOrder->update()
+#3 /home/bungaind/public_html/demo/system/engine/front.php(42): call_user_func_array(Array, Array)
+#4 /home/bungaind/public_html/demo/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/bungaind/public_html/demo/admin/index.php(163): Front->dispatch(Object(Action), Object(Action))
+#6 {main}
+  thrown in /home/bungaind/public_html/demo/system/library/class.phpmailer.php on line 462
+[29-Oct-2013 15:44:49 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/bungaind/public_html/demo/system/library/class.phpmailer.php:462
+Stack trace:
+#0 /home/bungaind/public_html/demo/system/library/class.phpmailer.php(408): PHPMailer->AddAnAddress('to', NULL, '')
+#1 /home/bungaind/public_html/demo/admin/controller/sale/order.php(257): PHPMailer->AddAddress(NULL)
+#2 [internal function]: ControllerSaleOrder->update()
+#3 /home/bungaind/public_html/demo/system/engine/front.php(42): call_user_func_array(Array, Array)
+#4 /home/bungaind/public_html/demo/system/engine/front.php(29): Front->execute(Object(Action))
+#5 /home/bungaind/public_html/demo/admin/index.php(163): Front->dispatch(Object(Action), Object(Action))
+#6 {main}
+  thrown in /home/bungaind/public_html/demo/system/library/class.phpmailer.php on line 462

@@ -105,10 +105,11 @@ class ControllerCommonHeader extends Controller {
 		$this->data['text_vendor'] = $this->language->get('text_vendor');
 		$this->data['text_advertise'] = $this->language->get('text_advertise');
 		$this->data['text_city'] = $this->language->get('text_city');
-				if ($this->session->data['token']!=''){			$this->request->get['token'] = $this->session->data['token'];		}		
+		
+		if ($this->session->data['token']!=''){			$this->request->get['token'] = $this->session->data['token'];		}
 		if (!$this->user->isLogged() || !isset($this->request->get['token']) || !isset($this->session->data['token']) || ($this->request->get['token'] != $this->session->data['token'])) {
 			$this->data['logged'] = '';
-	
+			
 			$this->data['home'] = $this->url->link('common/login', '', 'SSL');
 		} else {
 			$this->data['logged'] = sprintf($this->language->get('text_logged'), $this->user->getUserName());

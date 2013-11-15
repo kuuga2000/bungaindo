@@ -194,7 +194,8 @@ class ModelVendorVendor extends Model {
 		$html .= '<br><br>';
 		$html .= "Your order  has been shipped<br>ORDER ID: ".$data['order_id'];
 		$html .= "<br><br>Thanks You<br>Bunga Indo";
-		$mail = new Mail(); 
+		
+		/* $mail = new Mail(); 
 		$mail->protocol = $this->config->get('config_mail_protocol');
 		$mail->parameter = $this->config->get('config_mail_parameter');
 		$mail->hostname = $this->config->get('config_smtp_host');
@@ -208,7 +209,26 @@ class ModelVendorVendor extends Model {
 		$mail->setSubject(html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 		$mail->setHtml($html);
 		$mail->setText(html_entity_decode($text, ENT_QUOTES, 'UTF-8'));
-		$mail->send();
+		$mail->send(); */
+		
+		$mail = new PHPMailer(true); //New instance, with exceptions enabled
+		$mail->IsSMTP(); // tell the class to use SMTP
+		$mail->SMTPAuth = true; // enable SMTP authentication
+		$mail->Port = '25'; // set the SMTP server port
+		$mail->Host = 'mail.bungaindo.com'; // SMTP server
+		$mail->Username = 'admin@bungaindo.com'; // SMTP server username
+		$mail->Password = 'kebunrayabogor1'; // SMTP server password
+		$mail->SMTPAuth = true; // enable SMTP authentication
+		$mail->AddReplyTo($this->config->get('config_email'));
+		$mail->From = $this->config->get('config_email');
+		$mail->FromName = 'Bunga indo';
+		$mail->AddAddress($customer['email']);
+		$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
+		$mail->AltBody = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
+		$mail->WordWrap = 80; // set word wrap
+		$mail->MsgHTML($html);
+		$mail->IsHTML(true); // send as HTML
+		$mail->Send();
 		
 		
 		$this->db->query($SQL);
@@ -320,11 +340,11 @@ class ModelVendorVendor extends Model {
 			$link = $this->url->link('vendor/forgotten/validatePasswordToken&token='.$passwordToken, '', 'SSL');
 			
 			$subject = sprintf($this->language->get('text_subject'), $this->config->get('config_name'));
-			$message = "Dear Vendor\n\n";
-			$message .= "Please click on below link to accept your reset password request:". "\n\n";
-			$message .= $link . "\n\n";
-			$message .= "Thank You\n".$this->config->get('config_name');
-			$mail = new Mail();
+			$message = "Dear Vendor<br/><br/>";
+			$message .= "Please click on below link to accept your reset password request:". "<br/><br/>";
+			$message .= "<a href='".$link."'>". $link . "</a><br/><br/>";
+			$message .= "Thank You<br/>".$this->config->get('config_name');
+			/* $mail = new Mail();
 			$mail->protocol = $this->config->get('config_mail_protocol');
 			$mail->parameter = $this->config->get('config_mail_parameter');
 			$mail->hostname = $this->config->get('config_smtp_host');
@@ -337,7 +357,31 @@ class ModelVendorVendor extends Model {
 			$mail->setSender($this->config->get('config_name'));
 			$mail->setSubject(html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 			$mail->setText(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
-			$mail->send();
+			$mail->send(); */
+			
+			$mail = new PHPMailer(true);
+			$mail->IsSMTP();
+			$mail->SMTPAuth = true; 
+			$mail->Port = '25';
+			$mail->Host = 'mail.bungaindo.com';
+			$mail->Username = 'admin@bungaindo.com'; 
+			$mail->Password = 'kebunrayabogor1'; 
+			$mail->SMTPAuth = true; 
+			$mail->AddReplyTo($this->config->get('config_email'));
+			$mail->From = $this->config->get('config_email');
+			$mail->FromName = $this->config->get('config_name');
+			$mail->AddAddress($customerEmail);
+			$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
+			$mail->AltBody = "To view the message, please use an HTML compatible email viewer!"; 
+			$mail->WordWrap = 80; 
+			$mail->MsgHTML(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
+			$mail->IsHTML(true);
+			$mail->Encoding = 'base64';
+			if(!$mail->Send()) {			
+				echo "Mailer Error: " . $mail->ErrorInfo;exit;		
+			} else {					
+				
+			}
 			
 	 }
 	 

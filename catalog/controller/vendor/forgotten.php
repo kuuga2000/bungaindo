@@ -134,11 +134,11 @@ class ControllerVendorForgotten extends Controller {
 			
 				$subject = 'Bunga Indo - password changed';
 				
-				$message  = "Dear vendor". "\n";
-				$message .= 'Your new password is:' . "\n\n";
+				$message  = "Dear vendor". "<br/>";
+				$message .= 'Your new password is:' . "<br/><br/>";
 				$message .= $password;
-				$mail = new Mail();
 				
+				/* $mail = new Mail();
 				$mail->protocol = $this->config->get('config_mail_protocol');
 				$mail->parameter = $this->config->get('config_mail_parameter');
 				$mail->hostname = $this->config->get('config_smtp_host');
@@ -151,7 +151,32 @@ class ControllerVendorForgotten extends Controller {
 				$mail->setSender($this->config->get('config_name'));
 				$mail->setSubject(html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
 				$mail->setText(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
-				$mail->send();
+				$mail->send(); */
+				
+				$mail = new PHPMailer(true);
+				$mail->IsSMTP();
+				$mail->SMTPAuth = true; 
+				$mail->Port = '25';
+				$mail->Host = 'mail.bungaindo.com';
+				$mail->Username = 'admin@bungaindo.com'; 
+				$mail->Password = 'kebunrayabogor1'; 
+				$mail->SMTPAuth = true; 
+				$mail->AddReplyTo($this->config->get('config_email'));
+				$mail->From = $this->config->get('config_email');
+				$mail->FromName = $this->config->get('config_name');
+				$mail->AddAddress($email);
+				$mail->Subject = (html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
+				$mail->AltBody = "To view the message, please use an HTML compatible email viewer!"; 
+				$mail->WordWrap = 80; 
+				$mail->MsgHTML(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
+				$mail->IsHTML(true);
+				$mail->Encoding = 'base64';
+				if(!$mail->Send()) {			
+					echo "Mailer Error: " . $mail->ErrorInfo;exit;		
+				} else {					
+					
+				}
+				
 				$this->session->data['success'] = 'Please check you email for new password.';
 			}
 			else
