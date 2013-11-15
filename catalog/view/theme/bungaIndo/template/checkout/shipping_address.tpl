@@ -1,12 +1,4 @@
-<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-
-<div id="content"><?php echo $content_top; ?>
-
-
-<div class="cart-tab" style="margin-top:88px;">
-    <ul>
-        <li class="light"><i></i><span>Cart</span></li>
-        <li class="active"><i></i><span class="sec-tab">Shipping Address</span></li>
+<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?><div id="content"><?php echo $content_top; ?><div class="cart-tab" style="margin-top:88px;">    <ul>        <li class="light"><i></i><span>Cart</span></li>        <li class="active"><i></i><span class="sec-tab">Shipping Address</span></li>
         <li><i></i><span class="third-tab">Payment</span></li>
         <li><i></i><span>Success</span></li>
     </ul>
@@ -181,7 +173,7 @@ foreach($cart_products as $cart_product)
 <?php if ($error[$cart_product['key']]['error_date_available']) { ?>
 		            <span class="error"><?php echo $error[$cart_product['key']]['error_date_available']; ?></span>
 		            <?php } ?></td>
-		    </tr>			<tr>				<td colspan="3"></td>			</tr>			<tr>				<td style="width: 112px"><span class="ship_form_pad">Order time</span></td>				<td width="35" align="center"><span class="ship_form_pad">:</span></td>				<td>					<input style="width:10px;" type="radio" name="<?php echo $cart_product['key'] ?>[time]" value="09:00-17:00"> 09:00-17:00 <br>					<input style="width:10px;" type="radio" name="<?php echo $cart_product['key'] ?>[time]" value="17:00-22:00"> 17:00-22:00				</td>			</tr>
+		    </tr>			<tr>				<td colspan="3"></td>			</tr>			<tr>				<td style="width: 112px"><span class="ship_form_pad">Order time</span></td>				<td width="35" align="center"><span class="ship_form_pad">:</span></td>				<td>				<div class="skin skin-minimal">				<input type="radio" name="<?php echo $cart_product['key'] ?>[time]" value="09:00-17:00" checked="checked" /><label style="padding-left:4px;">09:00-17:00</label>					<div style="height:3px;"></div>					<input type="radio" name="<?php echo $cart_product['key'] ?>[time]" value="17:00-22:00" /><label style="padding-left:4px;">17:00-22:00</label>									</div>									 									</td>			</tr>
 	</table>
 	</div>
   </div>																																											

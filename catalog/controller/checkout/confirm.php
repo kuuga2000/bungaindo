@@ -2,11 +2,11 @@
 class ControllerCheckoutConfirm extends Controller { 
 	protected $data = array();
 	private $error = array();
-	public function index() {
+	public function index(){
+		//echo $this->session->data['time'][0];exit;
 		
 		if (!$this->customer->isLogged()) {
 	  		$this->session->data['redirect'] = $this->url->link('checkout/cart', '', 'SSL');
-	  
 	  		$this->redirect($this->url->link('account/login_register', '', 'SSL'));
     	}
 		$redirect='';
@@ -394,6 +394,8 @@ class ControllerCheckoutConfirm extends Controller {
 			//---------------- confirm order -------------
 			if(isset($this->request->post['confirmOrder']))	
 			{
+				
+				
 				$this->load->model('checkout/order');
 				$paymentMethod = $this->request->post['paymentmethod'];
 			

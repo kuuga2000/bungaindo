@@ -1,16 +1,4 @@
-<?php
-$strBreadcrumb = '';
- foreach ($breadcrumbs as $breadcrumb)
- {
- 	$strBreadcrumb .= $breadcrumb['separator'].'<a href="'.$breadcrumb['href'].'">'.$breadcrumb['text'].'</a>';
- }
-?>
-<?php echo $header; ?>
-
-<div class="category_box">
-<div class="home_ttl_fold"><span class="whtDot"></span> Customer Account <span class="whtDot"></span></div>
-<div class="afflt_acc_bx"> 
-<?php echo $column_left; ?><?php //echo $column_right; ?>
+<?php$strBreadcrumb = ''; foreach ($breadcrumbs as $breadcrumb) { 	$strBreadcrumb .= $breadcrumb['separator'].'<a href="'.$breadcrumb['href'].'">'.$breadcrumb['text'].'</a>'; }?><?php echo $header; ?><div class="category_box"><div class="home_ttl_fold"><span class="whtDot"></span> Customer Account <span class="whtDot"></span></div><div class="afflt_acc_bx"> <?php echo $column_left; ?><?php //echo $column_right; ?>
 <div class="afflt_rgt">
 <div id="content"><?php echo $content_top; ?>
   <div class="order_id"><span class="ordr_lst_black" style="font-weight:400 !important;">Order Id :</span> <span class="ordr_lst_pink"><?php echo  $orderDetails['order_id']; ?></span></div>
@@ -31,15 +19,15 @@ $strBreadcrumb = '';
 			   foreach($orderProducts AS $orderProduct) {?>
               <tr>
                            <?php  if($orderDetails['hide_sender']=='1') $sender="Hide Sender"; else $sender="Show Sender"; ?>
-               <td class="LatoRegular font12">1.  <?php echo $orderProduct['name']."($sender)"; ?> </td>
+               <td valign="top" class="LatoRegular font12">1.  <?php echo $orderProduct['name']."($sender)"; ?> </td>
                 <td class="LatoRegular font12">&nbsp;</td>
-                <td>- Delivery Date : <?php echo date('d-F-Y',strtotime($orderProduct['delivery_date'])); ?></td>
-                <td class="font12"><?php echo $orderProduct['qty']; ?> pc</td>
-                <td class="font12">&nbsp;</td>
-                <td class="font12">Flower</td>
-                <td align="right" class="ordr_lst_black font12">IDR</td>
-                <td align="right" class="ordr_lst_black font12"> <?php echo number_format($orderProduct['total'],0,',','.'); ?></td>
-              </tr>
+                <td valign="top">- Delivery Date : <?php echo date('d-F-Y',strtotime($orderProduct['delivery_date'])); ?><br>- Order time : <?php echo $orderProduct['order_time'];?></td>
+                <td class="font12" valign="top"><?php echo $orderProduct['qty']; ?> pc</td>
+                <td class="font12" valign="top">&nbsp;</td>
+                <td class="font12" valign="top">Flower</td>
+                <td align="right" valign="top" class="ordr_lst_black font12">IDR</td>
+                <td align="right" valign="top" class="ordr_lst_black font12"> <?php echo number_format($orderProduct['total'],0,',','.'); ?></td>
+              </tr>			  			   			  
               <tr>
                 <td>- <?php echo $orderProduct['shippingMethod']; ?> </td>
                 <td>&nbsp;</td>
@@ -72,9 +60,9 @@ $strBreadcrumb = '';
 				  ?>
                       <tr>
                         <td width="10">&nbsp;</td>
-                        <td> - <?php echo $productCatName; ?></td>
+                        <td valign="top"> - <?php echo $productCatName; ?></td>
                         <td width="16" align="center">:</td>
-                        <td class="LatoRegular"><?php echo $additionalProduct['name']; ?> </td>
+                        <td valign="top" class="LatoRegular"><?php echo $additionalProduct['name']; ?> </td>
 						<td  class="ordr_lst_black">IDR</td>
                         <td align="right" class="ordr_lst_black" style=""><?php echo number_format($additionalProduct['price_add'],0,',','.'); ?></td>
 						<td>&nbsp;</td>

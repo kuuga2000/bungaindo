@@ -1992,6 +1992,8 @@ class ControllerSaleOrder extends Controller {
 				}
 
 				$this->data['products'][] = array(
+				    'delivery_date'	   => $product['delivery_date'],
+				    'order_time'	   => $product['order_time'],	
 					'order_product_id' => $product['order_product_id'],
 					'product_id'       => $product['product_id'],
 					'name'    	 	   => $product['name'],
